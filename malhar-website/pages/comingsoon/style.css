@@ -1,0 +1,481 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   html,
+   body,
+   div,
+   span,
+   object,
+   iframe,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   blockquote,
+   pre,
+   abbr,
+   address,
+   cite,
+   code,
+   del,
+   dfn,
+   em,
+   img,
+   ins,
+   kbd,
+   q,
+   samp,
+   small,
+   strong,
+   sub,
+   sup,
+   var,
+   b,
+   i,
+   dl,
+   dt,
+   dd,
+   ol,
+   ul,
+   li,
+   fieldset,
+   form,
+   label,
+   legend,
+   table,
+   caption,
+   tbody,
+   tfoot,
+   thead,
+   tr,
+   th,
+   td,
+   article,
+   aside,
+   canvas,
+   details,
+   figcaption,
+   figure,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   section,
+   summary,
+   time,
+   mark,
+   audio,
+   video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+   }
+   body {
+     line-height: 1;
+   }
+   article,
+   aside,
+   details,
+   figcaption,
+   figure,
+   footer,
+   header,
+   hgroup,
+   menu,
+   nav,
+   section {
+     display: block;
+   }
+   nav ul {
+     list-style: none;
+   }
+   blockquote,
+   q {
+     quotes: none;
+   }
+   blockquote:before,
+   blockquote:after,
+   q:before,
+   q:after {
+     content: none;
+   }
+   a {
+     margin: 0;
+     padding: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+     text-decoration: none;
+   }
+   mark {
+     background-color: #ff9;
+     color: #000;
+     font-style: italic;
+     font-weight: bold;
+   }
+   del {
+     text-decoration: line-through;
+   }
+   abbr[title],
+   dfn[title] {
+     border-bottom: 1px dotted;
+     cursor: help;
+   }
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
+   hr {
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+   }
+   input,
+   select {
+     vertical-align: middle;
+   }
+   li {
+     list-style: none;
+   }
+   
+   /* =============================================================================
+            My CSS
+            ========================================================================== */
+   
+   /* ---- base ---- */
+   
+   html,
+   body {
+     width: 100%;
+     height: 100%;
+     background-color: black;
+   }
+   
+   html {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   }
+   
+   body {
+     font: normal 75% Arial, Helvetica, sans-serif;
+   }
+   
+   canvas {
+     vertical-align: bottom;
+   }
+   
+   /* OUR CSS */
+   
+   nav {
+     visibility: hidden;
+     position: absolute;
+   }
+  
+   .collapse {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 0vh;
+    width: 100vw;
+    background-color: #111111;
+    position: fixed;
+    z-index: 5;
+    transition: ease-in-out, 0.2s;
+  }
+  .toggle{
+    position: fixed;
+  }
+  .collapse.is-clicked {
+    height: 100vh;
+  }
+
+  .collapse a {
+    font-family: "Overpass", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+  }
+
+  .collapse ul {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: ease-in-out, 0.2s;
+    margin-top: 25%;
+    width: 100vw;
+    text-align: center;
+  }
+  .collapse ul.is-clicked {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .collapse li {
+    margin-top: 8%;
+  }
+  p {
+    text-align: center;
+  } 
+
+   
+   /* MEDIA FOR MOBILE ONLY */
+   @media (max-width: 500px) {
+     /* FOR HAMBURGER */
+     .toggle {
+       position: absolute;
+       cursor: pointer;
+       z-index: 7;
+       margin: 8% 5%;
+     }
+     .toggle input {
+       display: none;
+     }
+     .toggle input + div {
+       width: 30px;
+       height: 18px;
+       position: relative;
+     }
+     .toggle input + div div {
+       position: absolute;
+       left: 0;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       transition: transform 0.5s ease;
+     }
+     .toggle input + div div span {
+       display: block;
+       position: absolute;
+       left: 0;
+       right: 0;
+     }
+     .toggle input + div div span:first-child {
+       top: 0;
+     }
+     .toggle input + div div span:first-child:before,
+     .toggle input + div div span:first-child:after {
+       top: 0;
+     }
+     .toggle input + div div span:last-child {
+       bottom: 0;
+     }
+     .toggle input + div div span:last-child:before,
+     .toggle input + div div span:last-child:after {
+       bottom: 0;
+     }
+     .toggle input + div div span:before,
+     .toggle input + div div span:after {
+       content: "";
+       display: block;
+       width: 47%;
+       height: 2px;
+       border-radius: 1px;
+       background: #fff;
+       position: absolute;
+       -webkit-backface-visibility: hidden;
+       transition: transform 0.5s ease, border-radius 0.3s ease,
+         background 0.4s ease;
+     }
+     .toggle input + div div span:before {
+       left: 0;
+       transform-origin: 0 50%;
+       transform: translate(1px, 0) scaleX(1.1);
+     }
+     .toggle input + div div span:after {
+       right: 0;
+       transform-origin: 100% 50%;
+       transform: translate(-1px, 0) scaleX(1.1);
+     }
+     .toggle input + div svg {
+       display: block;
+       fill: none;
+       stroke: #fff;
+       stroke-width: 2px;
+       width: 44px;
+       height: 44px;
+       stroke-linecap: round;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       margin: -22px 0 0 -22px;
+       stroke-dasharray: 0 82.801 8 82.801;
+       stroke-dashoffset: 82.801;
+       transform-origin: 50% 50%;
+       -webkit-backface-visibility: hidden;
+       transform: scale(1);
+       transition: stroke-dashoffset 0.5s ease, stroke-dasharray 0.6s ease,
+         transform 0.5s ease, stroke 0.4s ease;
+     }
+     .toggle input + div svg:nth-child(3) {
+       transform: rotate(180deg) scale(1);
+     }
+     .toggle input:checked + div div {
+       transform: rotate(90deg);
+     }
+     .toggle input:checked + div div span:before,
+     .toggle input:checked + div div span:after {
+       background: #fff;
+     }
+     .toggle input:checked + div div span:first-child:before {
+       transform: rotate(45deg) translate(2.2px, -3px) scaleX(1.05);
+     }
+     .toggle input:checked + div div span:first-child:after {
+       transform: rotate(-45deg) translate(-2.2px, -3px) scaleX(1.05);
+     }
+     .toggle input:checked + div div span:last-child:before {
+       transform: rotate(-45deg) translate(2.2px, 3px) scaleX(1.05);
+     }
+     .toggle input:checked + div div span:last-child:after {
+       transform: rotate(45deg) translate(-2.2px, 3px) scaleX(1.05);
+     }
+     .toggle input:checked + div svg {
+       stroke-dashoffset: 62;
+       stroke-dasharray: 0 82.801 62 82.801;
+       transform: rotate(90deg);
+       stroke: #fff;
+     }
+     .toggle input:checked + div svg:nth-child(3) {
+       transform: rotate(270deg);
+     }
+   
+     html {
+       box-sizing: border-box;
+       -webkit-font-smoothing: antialiased;
+     }
+   
+     * {
+       box-sizing: inherit;
+     }
+     *:before,
+     *:after {
+       box-sizing: inherit;
+     }
+   
+     body .dribbble {
+       position: fixed;
+       display: block;
+       right: 24px;
+       bottom: 24px;
+     }
+     body .dribbble img {
+       display: block;
+       width: 76px;
+     }
+     
+   }
+  .image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    margin-top: -15%;
+    left: 50%;
+    margin-left: -27%;
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
+    background-position: center;
+    background-size: 180% , 180%;
+    background-repeat: no-repeat;
+  }
+   
+   .box{
+     width: 80vw;
+     height: 60vh;
+     background-color:black;
+     border: 1px solid white;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .section{
+     padding-top: 45%;
+   }
+   .box h3{
+     color: white;
+     text-align: center;
+     z-index: 10s;
+     font-size: 4vh;
+     margin-top: 50%;
+     font-weight: lighter;
+     font-family: 'Overpass' , sans-serif;
+   }
+   .box p{
+     color: white;
+     padding: 8%;
+     font-size: 2vh;
+     font-family: 'Overpass' , sans-serif;
+   }
+
+   
+   
+   /* MEDIA FOR EXCEPT MOBILE */
+    @media (min-width: 500px) {
+     /* Hamburger CSS */
+     .toggle {
+       visibility: hidden;
+       position: absolute;
+       z-index: 120;
+     }
+     .dribbble {
+       visibility: hidden;
+       position: absolute;
+     }
+   
+     /* NAV CSS */
+     nav {
+       position: absolute;
+       z-index: 5;
+       width: 100%;
+       visibility: visible;
+       margin-bottom: 20%;
+     }
+     ul {
+       padding: 2%;
+     }
+     li {
+       font-size: 1vw;
+       display: inline;
+       padding: 1%;
+       margin-left: 4.1%;
+     }
+     a {
+       font-family: "Overpass", sans-serif;
+   
+       text-decoration: none;
+       color: white;
+     }
+     .hover-underline-animation {
+       display: inline-block;
+       position: relative;
+       color: white;
+     }
+   
+     .hover-underline-animation:after {
+       content: "";
+       position: absolute;
+       width: 100%;
+       transform: scaleX(0);
+       height: 2px;
+       bottom: 0;
+       left: 0;
+       background-color: #ffcb9a;
+       transform-origin: bottom right;
+       transition: transform 0.25s ease-out;
+     }
+     .hover-underline-animation:hover {
+       color: #ffcb9a;
+     }
+     .hover-underline-animation:hover:after {
+       transform: scaleX(1);
+       transform-origin: bottom left;
+     }
+   
+     
+   }
+   
