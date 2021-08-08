@@ -21,3 +21,14 @@ $(document).ready(function(){
         $('.second').removeClass('is-clicked')
     })
 })
+
+$(document).ready(function(){
+    $('button').click(function(){
+        $('body').css('overflow-y' , 'hidden')
+    })
+})
+$(document).ready(function(){
+    $('.modal img').click(function(){
+        $('body').css('overflow-y' , 'scroll')
+    })
+})

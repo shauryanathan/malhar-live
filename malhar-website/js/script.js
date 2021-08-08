@@ -25,3 +25,12 @@ $(document).ready(function(){
 		$('.collapse ul').toggleClass('is-clicked')
 	})
 })
+
+$(document).ready(function(){
+	$('.click').click(function(){
+		if($('.collapse').hasClass('is-clicked')){
+			$('body').css('overflow-y' , 'hidden')
+		}
+	})
+	
+})
