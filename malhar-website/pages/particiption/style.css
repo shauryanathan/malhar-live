@@ -176,18 +176,31 @@
    }
    
    /* OUR CSS */
+   h1{
+     color: #ffff;
+     font-family: 'Krona One' , sans-serif;
+     font-size: 6vh;
+     text-align: center;
+     margin-bottom: 5%;
+   }
    .main{
        padding-top: 30%;
        width: 100vw;
    }
    .links{
-       margin-left: auto;
-       margin-right: auto;
-       height: 50vw;
-       width: 50vw;
-       background-color: #fff;
-       margin-bottom: 10%;
-
+       width: 10vw;
+       height: 10vw;
+       color: white;
+       font-size: 3vh;
+   }
+   .links.one{
+     width: 100vw;
+     text-align: center;
+   }
+   .links.one img{
+     width: 60vw;
+     height: 60vw;
+     
    }
    nav {
      visibility: hidden;
@@ -241,6 +254,9 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     h1{
+       font-size: 4vh;
+     }
      .toggle {
        position: absolute;
        cursor: pointer;
@@ -429,6 +445,13 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
+     .main{
+       padding-top: 10%;
+     }
+     .links.one img{
+       width: 20vw;
+       height: 20vw;
+     }
      .toggle {
        visibility: hidden;
        position: absolute;
