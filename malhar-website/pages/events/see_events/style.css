@@ -217,6 +217,7 @@
     z-index: 10000;
   }
 .button{
+  cursor: pointer;
   box-shadow: none;
   outline: none;
   border: none;
@@ -245,6 +246,7 @@
   margin: 0;
   margin-left: 80%;
   margin-top: 8%;
+  cursor: pointer;
 }
 
 .modal p{
@@ -556,6 +558,13 @@
       .card{
         margin-top: 10%;
         width: 50vw;
+      }
+
+      .modal{
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
       }
   
       .modal img{
