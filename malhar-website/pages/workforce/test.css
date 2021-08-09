@@ -195,6 +195,9 @@
    }
    /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
+  .title h1{
+    font-size: 4vh;
+  }
 
   /* FOR HAMBURGER */
   .toggle {

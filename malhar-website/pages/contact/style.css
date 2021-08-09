@@ -447,9 +447,11 @@
      }
      form input{
        color: #ffff;
+       font-family: 'Overpass' , sans-serif;
      }
      form textarea{
       color: #ffff;
+      font-family: 'Overpass' , sans-serif;
     }
    }
 
