@@ -176,6 +176,12 @@
    }
    
    /* OUR CSS */
+   h1{
+     font-size: 7vh;
+     font-family: 'Krona One' , sans-serif;
+     text-align: center;
+     padding-top: 25%;
+   }
    
    nav {
      visibility: hidden;
@@ -229,6 +235,10 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     h1{
+       padding-top: 75%;
+       font-size: 4vh;
+     }
      .toggle {
        position: absolute;
        cursor: pointer;
