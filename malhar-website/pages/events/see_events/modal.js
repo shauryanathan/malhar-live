@@ -23,6 +23,32 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
+    $('.three button').click(function(){
+        $('.third').addClass('is-clicked')
+    })
+})
+
+$(document).ready(function(){
+    $('.three-img').click(function(){
+        $('.third').removeClass('is-clicked')
+    })
+})
+
+$(document).ready(function(){
+    $('.four button').click(function(){
+        $('.fourth').addClass('is-clicked')
+    })
+})
+
+$(document).ready(function(){
+    $('.four-img').click(function(){
+        $('.fourth').removeClass('is-clicked')
+    })
+})
+
+
+
+$(document).ready(function(){
     $('button').click(function(){
         $('body').css('overflow-y' , 'hidden')
     })

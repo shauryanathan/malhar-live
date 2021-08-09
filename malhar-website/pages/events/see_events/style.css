@@ -162,7 +162,10 @@
      height: 100%;
      background-color: #000000;
      background-image: url('bg.png');
+     position: relative;
+     
    }
+  
    
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -192,6 +195,24 @@
     transition: ease-in-out , 0.3s;
   }
   .second.is-clicked{
+    opacity: 1;
+    z-index: 10000;
+  }
+  .third{
+    opacity: 0;
+    z-index: -10000;
+    transition: ease-in-out , 0.3s;
+  }
+  .third.is-clicked{
+    opacity: 1;
+    z-index: 10000;
+  }
+  .fourth{
+    opacity: 0;
+    z-index: -10000;
+    transition: ease-in-out , 0.3s;
+  }
+  .fourth.is-clicked{
     opacity: 1;
     z-index: 10000;
   }
@@ -528,9 +549,26 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .modal img{
+        height: 3%;
+        margin: 0;
+        padding: 0;
+        margin-left: 80%;
+        padding: 2%;
+
+      }
+      .modal p{
+        margin: 0;
+        padding: 0;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+      }
    
     
      /* Hamburger CSS */
+     
      .toggle {
        visibility: hidden;
        position: absolute;
