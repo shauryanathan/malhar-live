@@ -160,7 +160,7 @@
    body {
      width: 100%;
      height: 100%;
-     background-image: url("y-so-serious.png");
+     background-color: black;
    }
    
    html {
@@ -176,26 +176,24 @@
    }
    
    /* OUR CSS */
-
-   .footer{
-     width: 100vw;
-     font-size: 2vh;
-     font-family: 'Overpass' , sans-serif;
-     color: white;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 10%;
+   .main{
+       padding-top: 30%;
+       width: 100vw;
    }
-   
+   .links{
+       margin-left: auto;
+       margin-right: auto;
+       height: 50vw;
+       width: 50vw;
+       background-color: #fff;
+       margin-bottom: 10%;
+
+   }
    nav {
      visibility: hidden;
      position: absolute;
    }
-   form input{
-     transition: ease-in-out , 0.3s;
-     border-bottom: 2px solid black;
-   }
+  
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -239,85 +237,10 @@
     text-align: center;
   } 
 
-   /* Contact us box */
-   form input:focus{
-     outline: none;
-     border-bottom: 2px solid white;
-   }
-  
-   .form{
-    margin-left: 22%;
-   }
-
-   h1{
-    font-family: "Krona One", sans-serif;
-     color: white;
-     font-size: 4vh;
-     text-align: center;
-     padding: 20% 0% 6%;
-
-   }
    
-    h3{
-      color: white ;
-      margin: 3% 0%;
-      font-size: 3.7vh;
-      font-family: 'Overpass' , sans-serif;
-    font-weight: lighter;
-    }
-    input{
-      margin: 4% 3%;
-      padding: 3%;
-      background-color: #242424;
-      border: none;
-    }
-
-    textarea{
-      background-color: #242424;
-      border: none;
-      outline: none;
-      border-bottom: 2px solid black;
-      
-      
-    }
-    form textarea:focus{
-      outline: none;
-      border-bottom: 2px solid white;
-      transform: translateY(-4px);
-
-    }
-    .button{
-      padding: 3% 15%;
-      text-align: center;
-    }
-    .button:hover{
-      background-color: white;
-      color: black;
-      cursor: pointer;
-    }
-    
-    textarea{
-      resize: none;
-    }
-    .button{
-      background: none;
-      color: white;
-      border: solid white 2px;
-      border-radius: 0%;
-    }
- 
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
-     .footer{
-       margin: 0;
-       padding: 0;
-       text-align: center;
-       width: 100vw;
-       margin-top: 10%;
-       margin-left: auto;
-       margin-right: auto;
-     }
      .toggle {
        position: absolute;
        cursor: pointer;
@@ -459,30 +382,52 @@
        width: 76px;
      }
      
-     textarea{
-       margin: 5% 2%;
-     }
-     .button{
-       margin-left: 6%;
-     }
-     form input{
-       color: #ffff;
-       font-family: 'Overpass' , sans-serif;
-     }
-     form textarea{
-      color: #ffff;
-      font-family: 'Overpass' , sans-serif;
-    }
+   }
+  .image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: red;
+    margin-top: -15%;
+    left: 50%;
+    margin-left: -27%;
+    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
+    background-position: center;
+    background-size: 180% , 180%;
+    background-repeat: no-repeat;
+  }
+   
+   .box{
+     width: 80vw;
+     height: 60vh;
+     background-color:black;
+     border: 1px solid white;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .section{
+     padding-top: 45%;
+   }
+   .box h3{
+     color: white;
+     text-align: center;
+     z-index: 10s;
+     font-size: 4vh;
+     margin-top: 50%;
+     font-weight: lighter;
+     font-family: 'Overpass' , sans-serif;
+   }
+   .box p{
+     color: white;
+     padding: 8%;
+     font-size: 2vh;
+     font-family: 'Overpass' , sans-serif;
    }
 
    
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
-     .header h1 {
-       font-size: 10vh;
-     }
-   
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;
@@ -543,116 +488,6 @@
        transform-origin: bottom left;
      }
    
-     .section {
-       padding: 2% 0%;
-     }
-     .events {
-       margin: 0%;
-       padding: 0%;
-     }
-     .content {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-evenly;
-       flex-wrap: wrap;
-       padding-top: 10%;
-     }
-   
-     .to_be_logo {
-       width: 40%;
-       margin: 0%;
-       padding: 0%;
-     }
-   
-     .info {
-       width: 50%;
-       margin: 0%;
-       padding: 0%;
-     }
-   
-     .info h3 {
-       padding: 0% 0% 2%;
-       font-size: 6vh;
-     }
-     p {
-       font-size: 2vh;
-       text-align: center;
-     }
-     form input{
-       text-align: left;
-       padding: 0%;
-       margin: 0%;
-     }
-     form{
-       margin: 0%;
-       padding: 0%;
-      text-align: center;
-     }
-     input{
-       box-shadow: none;
-       outline: none;
-       border: none;
-       background-color: #242424;
-       height: 4vh;
-       width: 14vw;
-       color: white;
-       text-align: left;
-       
-     }
-     .form{
-       padding:0%;
-       margin: 0%;
-     }
-     form textarea{
-       margin: 2%;
-       box-shadow: none;
-       outline: none;
-       border: none;
-       background-color: #242424;
-       resize: none;
-       transition: ease-in-out , 0.3s;
-       border-bottom: 2px solid black;
-       color: white;
-       font-family: sans-serif;
-       padding: 1%;
-     }
-     form textarea:focus{
-      outline: none;
-      border-bottom: 2px solid white;
-    }
-    form input:focus{
-      transform: translateY(-4px);
-
-    }
-     h1{
-       padding:0%;
-       margin: 0%;
-       padding-top: 9%;
-       font-size: 4vh;
-     }
-     h3{
-       padding: 0%;
-       margin: 0%;
-       margin-top: 4%;
-     }
-
-     .flex_container{
-       display: flex;
-       justify-content: center;
-       gap: 1%;
-       margin: 2%;
-     }
-     .button{
-       display: block;
-       padding: 0%;
-       font-family: 'Overpass' , sans-serif;
-       margin-left: auto;
-       margin-right: auto;
-     }
-     form input{
-       padding-left: 3%;
-     }
-
      
    }
    
