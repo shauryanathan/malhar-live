@@ -179,7 +179,7 @@
    /* OUR CSS */
    .title{
        color: white;
-       font-family: 'Overpass' , sans-serif;
+       font-family: 'Krona One' , sans-serif;
        width: 100%;
        position: absolute;
        text-align: center;
@@ -187,7 +187,7 @@
    }
    .title h1{
        font-weight: lighter;
-       font-size: 8vh;
+       font-size: 6vh;
    }
    nav {
      visibility: hidden;
@@ -195,6 +195,7 @@
    }
    /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
+
   /* FOR HAMBURGER */
   .toggle {
     position: absolute;
@@ -591,7 +592,7 @@ body {
 }
 .title{
   text-align: center;
-  font-family: 'Overpass' , sans-serif;
+  font-family: 'Krona One' , sans-serif;
   font-size: 6vh;
   width: 100vw;
   margin-top: 5%;
