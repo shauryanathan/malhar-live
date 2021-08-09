@@ -687,6 +687,9 @@ body {
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
     /* Hamburger CSS */
+    .blog-slider__text{
+      font-size: 1.5vh;
+    }
     .toggle {
       visibility: hidden;
       position: absolute;
