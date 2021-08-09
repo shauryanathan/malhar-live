@@ -549,6 +549,15 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .cards-main{
+        padding-top: 0.1%;
+        margin-top: 0;
+      }
+      .card{
+        margin-top: 10%;
+        width: 50vw;
+      }
+  
       .modal img{
         height: 3%;
         margin: 0;
