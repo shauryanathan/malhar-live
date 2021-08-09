@@ -521,7 +521,7 @@ a {
     margin-top: 8%;
   }
   p {
-    text-align: center;
+    text-align: justify;
   }
   .cta span{
     margin-top: 0.4%;
@@ -657,7 +657,7 @@ a {
   }
   p {
     font-size: 2vh;
-    text-align: center;
+    text-align: justify;
     width: 50vw;
   }
 }
