@@ -445,6 +445,12 @@
      .button{
        margin-left: 6%;
      }
+     form input{
+       color: #ffff;
+     }
+     form textarea{
+      color: #ffff;
+    }
    }
 
    
