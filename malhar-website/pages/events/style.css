@@ -179,6 +179,7 @@ canvas {
 
 /* OUR CSS */
 
+
 .to_be_logo{
   height: 25vh;
 }
@@ -226,9 +227,11 @@ nav {
   padding: 10% 9% 20% 14%;
 }
 .events {
-  font-size: 4vh;
+  font-size: 7vh;
   text-align: center;
   margin: 8% 0%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   font-family: "Krona One", sans-serif;
 }
 
@@ -334,6 +337,9 @@ a {
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
   /* FOR HAMBURGER */
+  .events{
+    font-size: 5vh;
+  }
   .toggle {
     position: absolute;
     cursor: pointer;
