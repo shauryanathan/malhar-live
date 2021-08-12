@@ -30,6 +30,8 @@ $(document).ready(function(){
 	$('.click').click(function(){
 		if($('.collapse').hasClass('is-clicked')){
 			$('body').css('overflow-y' , 'hidden')
+		} else {
+			$('body').css('overflow-y' , 'scroll')
 		}
 	})
 	
