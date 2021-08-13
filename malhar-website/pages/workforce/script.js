@@ -11,3 +11,12 @@ var swiper = new Swiper('.blog-slider', {
       clickable: true,
     }
   });
+  
+  var swiper = new Swiper('.quartet', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: false,
+    mousewheel: {
+      invert: false,
+    },
+  });

@@ -1,11 +1,4 @@
-// jQuery(document).ready(function($) {
-
-//     if (window.history && window.history.pushState) {
-  
-//       window.history.pushState('forward', null, './#forward');
-  
-//       $(window).on('popstate', function() {
-//           window.location.pathname = "./index.html";
-//       });
-//     }
-//   });
+if(performance.navigation.type == 2)
+{
+    window.location = "./index.html";
+}

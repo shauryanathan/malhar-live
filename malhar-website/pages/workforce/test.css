@@ -407,7 +407,7 @@ body {
   display: flex;
 }
 
-.blog-slider {
+.blog-slider, .quartet {
   width: 95%;
   position: relative;
   max-width: 800px;
@@ -422,13 +422,13 @@ body {
 
 }
 @media screen and (max-width: 992px) {
-  .blog-slider {
+  .blog-slider, .quartet {
     max-width: 680px;
     height: 400px;
   }
 }
 @media screen and (max-width: 768px) {
-  .blog-slider {
+  .blog-slider, .quartet {
     min-height: 500px;
     height: auto;
     margin: 200px auto;
@@ -436,7 +436,7 @@ body {
 
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
-  .blog-slider {
+  .blog-slider, .quartet {
     height: 350px;
   }
 }
