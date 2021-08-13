@@ -1,11 +1,11 @@
-jQuery(document).ready(function($) {
+// jQuery(document).ready(function($) {
 
-    if (window.history && window.history.pushState) {
+//     if (window.history && window.history.pushState) {
   
-      window.history.pushState('forward', null, './#forward');
+//       window.history.pushState('forward', null, './#forward');
   
-      $(window).on('popstate', function() {
-          window.location.pathname = "./index.html";
-      });
-    }
-  });
+//       $(window).on('popstate', function() {
+//           window.location.pathname = "./index.html";
+//       });
+//     }
+//   });
