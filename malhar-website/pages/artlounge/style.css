@@ -214,6 +214,7 @@
      transition: ease , 0.2s;
      margin-top: 5%;
      }
+
     .img:hover{
       background-size: 103% 103%;
      }
