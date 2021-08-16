@@ -526,6 +526,10 @@ a {
   .cta span{
     margin-top: 0.4%;
   }
+
+  .info{
+    margin-left: -3%;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
@@ -648,6 +652,7 @@ a {
   .info {
     width: 50%;
     margin: 0%;
+    margin-left: -10%;
     padding: 0%;
   }
 
@@ -660,4 +665,5 @@ a {
     text-align: justify;
     width: 50vw;
   }
+  
 }
