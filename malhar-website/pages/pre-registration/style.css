@@ -161,6 +161,7 @@
      width: 100%;
      height: 100%;
      background-color: black;
+     background-image: url(../events/bg.png);
    }
    
    html {
@@ -176,13 +177,60 @@
    }
    
    /* OUR CSS */
-   h1{
-     font-size: 7vh;
-     font-family: 'Krona One' , sans-serif;
+ 
+   .button{
+     margin-top: 85%;
      text-align: center;
-     padding-top: 25%;
+
    }
-   
+   .two{
+      margin-top: 15%;
+   }
+   .button a{
+     color: white;
+     border: 2px solid white;
+     padding: 5%;
+     font-size: 2vh;
+     font-family: 'Overpass' , sans-serif;
+     text-align: center;
+   }
+   h1{
+     color: #ffff;
+     font-family: 'Krona One' , sans-serif;
+     font-size: 6vh;
+     text-align: center;
+     margin-bottom: 5%;
+   }
+   .main{
+       padding-top: 30%;
+       width: 100vw;
+   }
+   .links{
+       width: 10vw;
+       height: 10vw;
+       color: white;
+       font-size: 3vh;
+       font-family: 'Overpass' , sans-serif;
+   }
+   .links.one{
+     width: 100vw;
+     text-align: center;
+   }
+   .links.one img{
+     width: 60vw;
+     height: 60vw;
+     
+   }
+   .links.two{
+     margin-top:70%;
+    width: 100vw;
+    text-align: center;
+  }
+   .links.two img{
+    width: 60vw;
+    height: 60vw;
+    
+  }
    nav {
      visibility: hidden;
      position: absolute;
@@ -236,7 +284,6 @@
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      h1{
-       padding-top: 75%;
        font-size: 4vh;
      }
      .toggle {
@@ -427,6 +474,29 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
+     .button{
+       margin: 20%;
+     }
+     .button.two{
+       margin-top: -15%;
+     }
+     .button a{
+       padding: 2%;
+     }
+     .main{
+       padding-top: 10%;
+     }
+     .links.one img{
+       width: 20vw;
+       height: 20vw;
+     }
+     .links.two img{
+      width: 20vw;
+      height: 20vw;
+    }
+    .links.two{
+      margin-top: 20%;
+    }
      .toggle {
        visibility: hidden;
        position: absolute;
