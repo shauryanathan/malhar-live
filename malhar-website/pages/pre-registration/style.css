@@ -1,4 +1,3 @@
-
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -162,7 +161,7 @@
      width: 100%;
      height: 100%;
      background-color: black;
-     background-image: url(bg-main.png);
+     background-image: url(../events/bg.png);
    }
    
    html {
@@ -178,102 +177,60 @@
    }
    
    /* OUR CSS */
-  
-   .caption{
-     color: white;
-     font-family: 'Overpass' , sans-serif;
-     font-size: 3vh;
-     padding-top: 5%;
-   }
-   .main{
-     width: 100vw;
-     text-align: center;
-     padding-bottom: 10%;
-   }
-   .main h1{
-     color: white;
-     font-family: 'Krona One' , sans-serif;
-     padding-top: 20%;
-     font-size: 4vh;
-   }
-   .four.caption{
-     font-size: 2vh;
-
-   }
-   .img{
-     margin-left: auto;
-     margin-right: auto;
-     text-align: center;
-     margin-bottom: 15%;
-     background-color: #0C4B4C;
-     padding-bottom: 5%;
-     width: 90%;
-     background-image: url(bg.png);
-     background-position: center;
-     background-size: 100% 100%;
-     background-repeat: repeat;
-     transition: ease , 0.2s;
-     margin-top: 5%;
-     }
-
-    .img:hover{
-      background-size: 103% 103%;
-     }
-
-   .img img{
-    transition: ease , 0.2s;
-
-     width:70vw;
-     margin-top: 15%;
-     box-shadow: 0px 12px 25px #000;
-   
-   }  
+ 
    .button{
-     margin-top: 2%;
-     display: block;
-     border: 2px solid #ffffff;
-     padding: 0;
-     margin: 0;
-     width: 30%;
-     padding: 2%;
-     margin-left: auto;
-     margin-right: auto;
+     margin-top: 85%;
      text-align: center;
-     margin-top: 8%;
-     transition: ease-in-out , 0.3s;
-   }
-   .button:hover{
-     cursor: pointer;
-     background-color: #0C4B4C;
-   }
 
-   .button {
+   }
+   .two{
+      margin-top: 15%;
+   }
+   .button a{
      color: white;
-     font-family: 'Overpass' , sans-serif;
+     border: 2px solid white;
+     padding: 5%;
      font-size: 2vh;
-     
-   }
-   .button a {
-       color: white;
-       
-   }
-   .img p{
      font-family: 'Overpass' , sans-serif;
-     font-size: 8vw;
-     color: #ffffff;
-     background-color: #0C4B4C;
-     width: 50%;
-     margin-top: 5%;
-     margin-left: auto;
-     margin-right: auto;
+     text-align: center;
    }
    h1{
-     font-size: 7vh;
+     color: #ffff;
      font-family: 'Krona One' , sans-serif;
+     font-size: 6vh;
      text-align: center;
-     padding-top: 25%;
+     margin-bottom: 5%;
    }
-   
+   .main{
+       padding-top: 30%;
+       width: 100vw;
+   }
+   .links{
+       width: 10vw;
+       height: 10vw;
+       color: white;
+       font-size: 3vh;
+       font-family: 'Overpass' , sans-serif;
+   }
+   .links.one{
+     width: 100vw;
+     text-align: center;
+   }
+   .links.one img{
+     width: 60vw;
+     height: 60vw;
+     
+   }
+   .links.two{
+     margin-top:70%;
+    width: 100vw;
+    text-align: center;
+  }
+   .links.two img{
+    width: 60vw;
+    height: 60vw;
+    
+  }
    nav {
      visibility: hidden;
      position: absolute;
@@ -327,7 +284,6 @@
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      h1{
-       padding-top: 75%;
        font-size: 4vh;
      }
      .toggle {
@@ -517,26 +473,30 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
-    .main h1{
-      font-size: 6vh;
-      padding: 0%;
-      padding-top: 10%;
-      margin-bottom: 5%;
-    }
-    .img{
-      margin: 0;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 5%;
-    }
      /* Hamburger CSS */
-     .img{
-       width:40%;
-       height: 25%;
+     .button{
+       margin: 20%;
      }
-     .img img{
-       width: 30vw;
+     .button.two{
+       margin-top: -15%;
      }
+     .button a{
+       padding: 2%;
+     }
+     .main{
+       padding-top: 10%;
+     }
+     .links.one img{
+       width: 20vw;
+       height: 20vw;
+     }
+     .links.two img{
+      width: 20vw;
+      height: 20vw;
+    }
+    .links.two{
+      margin-top: 20%;
+    }
      .toggle {
        visibility: hidden;
        position: absolute;
@@ -598,3 +558,4 @@
    
      
    }
+   
