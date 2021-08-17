@@ -1,3 +1,4 @@
+
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -251,6 +252,10 @@
      font-family: 'Overpass' , sans-serif;
      font-size: 2vh;
      
+   }
+   .button a {
+       color: white;
+       
    }
    .img p{
      font-family: 'Overpass' , sans-serif;
@@ -593,4 +598,3 @@
    
      
    }
-   
