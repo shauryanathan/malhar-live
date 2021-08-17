@@ -465,7 +465,7 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .second{
-        margin-top: 10%;
+        margin-top: 15%;
       }
     .main p{
         padding: 0;
