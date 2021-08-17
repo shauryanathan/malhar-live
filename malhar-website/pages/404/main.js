@@ -1,0 +1,6 @@
+
+
+function home()
+{
+    window.location = "../../";
+}
