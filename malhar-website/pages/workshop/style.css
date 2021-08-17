@@ -178,7 +178,7 @@
    
    /* OUR CSS */
    .second{
-     margin-top: 10%;
+     padding-top: 15%;
    }
    h1{
      font-size: 7vh;
@@ -465,7 +465,7 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .second{
-        margin-top: 10%;
+        margin-top: 15%;
       }
     .main p{
         padding: 0;
