@@ -177,6 +177,9 @@
    }
    
    /* OUR CSS */
+   .second{
+     margin-top: 10%;
+   }
    h1{
      font-size: 7vh;
      font-family: 'Krona One' , sans-serif;
