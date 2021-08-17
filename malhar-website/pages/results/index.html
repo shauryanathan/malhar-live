@@ -20,8 +20,7 @@
   <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
   <meta name="author" content="Malhar Computers Team" />
   <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link rel="stylesheet" media="screen" href="./style.css" />
+  content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.5, user-scalable=yes" />  <link rel="stylesheet" media="screen" href="./style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet" />
@@ -44,27 +43,30 @@
 </head>
 
 <body>
-    <!-- Hamburger -->
-    <label class="toggle">
-      <input type="checkbox" class="click">
+   <!-- Hamburger -->
+   <label class="toggle">
+    <input type="checkbox" class="click">
+    <div class="ham">
       <div>
-        <div>
-          <span></span>
-          <span></span>
-        </div>
-        <svg>
-          <use xlink:href="#path">
-        </svg>
-        <svg>
-          <use xlink:href="#path">
-        </svg>
+        <span></span>
+        <span></span>
       </div>
-    </label>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
-        <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
-      </symbol>
-    </svg>
+      <svg>
+        <use xlink:href="#path">
+      </svg>
+      <svg tabindex="0">
+        <title>Hamburger Menu</title>
+        <use xlink:href="#path">
+      </svg>
+    </div>
+  </label>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
+      <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
+    </symbol>
+    <title>Navigation Menu </title>
+  </svg>
+
   
     <!-- Navbar -->
     <nav>

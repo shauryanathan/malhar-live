@@ -1,0 +1,26 @@
+<!-- Hamburger -->
+    <label class="toggle">
+      <input type="checkbox" class="click">
+      <div class="ham">
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+        <svg>
+          <use xlink:href="#path">
+        </svg>
+        <svg tabindex="0">
+          <title>Hamburger Menu</title>
+          <use xlink:href="#path">
+        </svg>
+      </div>
+    </label>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
+        <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
+      </symbol>
+      <title>Navigation Menu </title>
+    </svg>
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.5, user-scalable=yes" />
