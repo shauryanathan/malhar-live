@@ -177,15 +177,26 @@
    }
    
    /* OUR CSS */
- 
+   .first{
+    width: 100vw;
+  }
+  .image-1{
+    text-align: center;
+  }
+  .image-1 img{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
    .button{
-     margin-top: 75%;
+     margin-top: 6vh;
+     margin-left: auto;
+     margin-right: auto;
      text-align: center;
+     margin-bottom: 13%;
+   }
 
-   }
-   .two{
-      margin-top: 15%;
-   }
+   
    .button a{
      color: white;
      border: 2px solid white;
@@ -283,6 +294,7 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+    
      h1{
        font-size: 4vh;
      }
@@ -474,17 +486,28 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
-     .button{
-       margin: 12.5%;
-     }
-     .button.two{
-       margin-top: -9%;
+     
+     .image-1 img{
+       width: 30vw;
      }
      .button a{
-       padding: 2%;
+       font-size: 2.5vh;
+       padding: 1%;
+     }
+     .button{
+       margin: 0;
+       margin-top: 2%;
+     }
+     .two{
+       margin-top: 3%;
      }
      .main{
        padding-top: 10%;
+     }
+     .main h1{
+       margin: 0;
+       padding: 0;
+       margin-bottom: 2%;
      }
      .links.one img{
        width: 20vw;
