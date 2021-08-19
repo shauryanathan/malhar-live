@@ -187,7 +187,7 @@
     opacity: 0;
     z-index: -10000;
     transition: ease-in-out , 0.3s;
-visibility: hidden;
+    visibility: hidden;
   }
   .first.is-clicked{
     opacity: 1;
@@ -210,19 +210,23 @@ visibility: hidden;
     opacity: 0;
     z-index: -10000;
     transition: ease-in-out , 0.3s;
+    visibility: hidden;
   }
   .third.is-clicked{
     opacity: 1;
     z-index: 10000;
+    visibility: visible;
   }
   .fourth{
     opacity: 0;
     z-index: -10000;
     transition: ease-in-out , 0.3s;
+    visibility: hidden;
   }
   .fourth.is-clicked{
     opacity: 1;
     z-index: 10000;
+    visibility: visible;
   }
 .button{
   cursor: pointer;
