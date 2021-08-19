@@ -216,10 +216,10 @@
    .button:hover{
        background-color: white;
    }
-   .button:hover>a{
+   .button:hover{
     color: #000000;
 }
-   .button a{
+   .button{
        color: white;
    }
    nav {
@@ -269,6 +269,15 @@
   p {
     text-align: center;
   } 
+  .visually-hidden {
+    height: opx;
+    width: 0px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    border: 0px;
+} 
 
    
    /* MEDIA FOR MOBILE ONLY */
