@@ -475,7 +475,7 @@
     @media (min-width: 500px) {
      /* Hamburger CSS */
      .button{
-       margin: 13%;
+       margin: 12.5%;
      }
      .button.two{
        margin-top: -9%;
