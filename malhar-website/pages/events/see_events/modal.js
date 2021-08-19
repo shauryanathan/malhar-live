@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.one button').click(function(){
         document.querySelector( '[tabindex="-1"]' ).focus();
-        $('.first').addClass('is-clicked')
+        $('.first').addClass('is-clicked')  
     })
 })
 
