@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.one button').click(function(){
+        document.querySelector( '[tabindex="-1"]' ).focus();
         $('.first').addClass('is-clicked')
     })
 })
@@ -12,6 +13,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.two button').click(function(){
+        document.querySelector( '[tabindex="-1"]' ).focus();
         $('.second').addClass('is-clicked')
     })
 })
@@ -24,6 +26,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.three button').click(function(){
+        document.querySelector( '[tabindex="-1"]' ).focus();
         $('.third').addClass('is-clicked')
     })
 })
@@ -36,6 +39,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.four button').click(function(){
+        document.querySelector( '[tabindex="-1"]' ).focus();
         $('.fourth').addClass('is-clicked')
     })
 })
@@ -54,7 +58,7 @@ $(document).ready(function(){
     })
 })
 $(document).ready(function(){
-    $('.modal img').click(function(){
+    $('.modal input').click(function(){
         $('body').css('overflow-y' , 'scroll')
     })
 })

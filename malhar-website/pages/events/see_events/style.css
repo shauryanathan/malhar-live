@@ -240,7 +240,7 @@
   color: white;
 }
 
-.modal img{
+.modal input{
   width: 5%;
   padding: 0;
   margin: 0;
@@ -567,7 +567,7 @@
         margin: 0;
       }
   
-      .modal img{
+      .modal input{
         height: 3%;
         margin: 0;
         padding: 0;
