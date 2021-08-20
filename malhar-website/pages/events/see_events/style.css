@@ -563,6 +563,9 @@
 
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .collapse{
+        visibility: hidden;
+      }
       .cards-main{
         padding-top: 0.1%;
         margin-top: 0;

@@ -420,6 +420,9 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .collapse{
+        visibility: hidden;
+      }
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;

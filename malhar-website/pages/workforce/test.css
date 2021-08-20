@@ -688,6 +688,9 @@ body {
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
     /* Hamburger CSS */
+    .collapse{
+      visibility: hidden;
+    }
     .blog-slider__text{
       font-size: 1.8vh;
       

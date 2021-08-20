@@ -499,6 +499,12 @@ nav {
     font-size: 10vh;
   }
 
+  .collapse{
+    visibility: hidden;
+  }
+
+
+
   /* Hamburger CSS */
   .toggle {
     visibility: hidden;

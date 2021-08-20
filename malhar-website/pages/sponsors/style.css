@@ -427,6 +427,9 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
+     .collapse{
+      visibility: hidden;
+    }
      .toggle {
        visibility: hidden;
        position: absolute;

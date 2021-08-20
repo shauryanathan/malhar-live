@@ -517,6 +517,9 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .collapse{
+        visibility: hidden;
+      }
     .main h1{
       font-size: 6vh;
       padding: 0%;

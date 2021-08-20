@@ -473,7 +473,9 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
-      
+      .collapse{
+        visibility: hidden;
+      }
     .main p{
         padding: 0;
         margin: 0;
