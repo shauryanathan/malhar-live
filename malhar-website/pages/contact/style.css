@@ -483,6 +483,9 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      .collapse{
+        visibility: hidden;
+      }
       .footer{
         margin-top: 3%;
       }

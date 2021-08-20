@@ -473,6 +473,9 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
+     .collapse{
+      visibility: hidden;
+    }
      .button{
        margin: 20%;
      }

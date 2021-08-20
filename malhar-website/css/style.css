@@ -322,6 +322,15 @@ nav {
   font-size: 9vh;
 }
 
+.toggle {
+  opacity: 0;
+  transition: 1.5s;
+  position: absolute;
+  cursor: pointer;
+  z-index: 7;
+  margin: 8% 5%;
+}
+
 
 
 
@@ -489,6 +498,12 @@ nav {
   .header h1 {
     font-size: 10vh;
   }
+
+  .collapse{
+    visibility: hidden;
+  }
+
+
 
   /* Hamburger CSS */
   .toggle {

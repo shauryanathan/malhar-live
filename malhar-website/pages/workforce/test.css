@@ -592,6 +592,7 @@ body {
   color: #ffff;
   margin-bottom: 30px;
   line-height: 1.5em;
+  
 }
 .title{
   text-align: center;
@@ -687,13 +688,17 @@ body {
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
     /* Hamburger CSS */
+    .collapse{
+      visibility: hidden;
+    }
     .blog-slider__text{
       font-size: 1.8vh;
+      
     }
     .toggle {
       visibility: hidden;
       position: absolute;
-      z-index: 120;
+      z-index: 120; 
     }
     .dribbble {
       visibility: hidden;

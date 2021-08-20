@@ -486,6 +486,9 @@
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
+     .collapse{
+      visibility: hidden;
+    }
      
      .image-1 img{
        width: 30vw;
