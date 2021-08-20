@@ -322,6 +322,15 @@ nav {
   font-size: 9vh;
 }
 
+.toggle {
+  opacity: 0;
+  transition: 1.5s;
+  position: absolute;
+  cursor: pointer;
+  z-index: 7;
+  margin: 8% 5%;
+}
+
 
 
 

@@ -36,3 +36,7 @@ $(document).ready(function(){
 	})
 	
 })
+
+$(document).ready(function(){
+    setTimeout(() => {$('.toggle').css('opacity', '1')},1000)
+})
