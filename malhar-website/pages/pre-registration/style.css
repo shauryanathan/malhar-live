@@ -149,13 +149,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,19 +163,19 @@
      background-color: black;
      background-image: url(../events/bg.png);
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
    .first{
     width: 100vw;
@@ -195,8 +195,8 @@
      text-align: center;
      margin-bottom: 13%;
    }
-   
-   
+
+
    .button a{
      color: white;
      border: 2px solid white;
@@ -230,7 +230,7 @@
    .links.one img{
      width: 60vw;
      height: 60vw;
-     
+
    }
    .links.two{
      margin-top:70%;
@@ -240,13 +240,13 @@
    .links.two img{
     width: 60vw;
     height: 60vw;
-    
+
   }
    nav {
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -288,13 +288,13 @@
   }
   p {
     text-align: center;
-  } 
+  }
 
-   
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
-    
+
      h1{
        font-size: 4vh;
      }
@@ -414,12 +414,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -427,7 +427,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -438,7 +438,7 @@
        display: block;
        width: 76px;
      }
-     
+
    }
   .image{
     width: 200px;
@@ -453,7 +453,7 @@
     background-size: 180% , 180%;
     background-repeat: no-repeat;
   }
-   
+
    .box{
      width: 80vw;
      height: 60vh;
@@ -481,15 +481,15 @@
      font-family: 'Overpass' , sans-serif;
    }
 
-   
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      /* Hamburger CSS */
      .collapse{
       visibility: hidden;
     }
-     
+
      .image-1 img{
        width: 30vw;
      }
@@ -532,7 +532,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -552,7 +552,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -561,7 +561,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -581,7 +581,16 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
-     
+
+
    }
-   
+
+.visually-hidden{
+                height: opx;
+                width: 0px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0px;
+                position: absolute;
+                border: 0px;
+}

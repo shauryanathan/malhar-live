@@ -1,309 +1,381 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
+<html lang="en">
 
-  <!-- META -->
-  <meta charset="UTF-8">
-  <title>Workforce</title>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta name="viewport"
+  <head>
+
+    <!-- META -->
+    <meta charset="UTF-8">
+    <title>Workforce</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
-  <meta name="author" content="Malhar Computers Team" />
-  <meta name="viewport"
+    <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
+    <meta name="author" content="Malhar Computers Team" />
+    <meta name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.5, user-scalable=yes" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
-  <link rel="stylesheet" href="./test.css">
-  <link rel="stylesheet" media="screen" href="test.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" media="screen" href="test.css" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Overpass+Mono:wght@300;400&family=Overpass:wght@900&display=swap"
-    rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Overpass+Mono:wght@300;400&family=Overpass:wght@900&display=swap"
+      rel="stylesheet">
 
-  <!-- JS- -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="../../loadnav.js"></script>
-  <!-- script hamburger -->
-  <script src="../../js/script.js"></script>
-  <script src="../../js/nav.js"></script>
-  
+    <!-- JS- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../loadnav.js"></script>
+    <!-- script hamburger -->
+    <script src="../../js/script.js"></script>
+    <script src="../../js/nav.js"></script>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
 
-</head>
-<body>
- <!-- Hamburger -->
- <label class="toggle" style="z-index: 100;">
-  <input type="checkbox" class="click">
-  <div class="ham">
-    <div>
-      <span></span>
-      <span></span>
-    </div>
-    <svg>
-      <use xlink:href="#path">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <!-- Hamburger -->
+    <label class="toggle" style="z-index: 100;">
+      <input type="checkbox" class="click">
+      <div class="ham">
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+        <svg>
+          <use xlink:href="#path">
+        </svg>
+        <svg tabindex="0" style="outline: none;">
+          <title>Hamburger Menu</title>
+          <use xlink:href="#path">
+        </svg>
+      </div>
+    </label>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
+        <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
+      </symbol>
+      <title>Navigation Menu </title>
     </svg>
-    <svg tabindex="0" style="outline: none;">
-      <title>Hamburger Menu</title>
-      <use xlink:href="#path">
-    </svg>
-  </div>
-</label>
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
-    <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
-  </symbol>
-  <title>Navigation Menu </title>
-</svg>
 
-  <nav style="z-index: 300;">
-    <ul>
-      <li><a href="../../index.html" class="hover-underline-animation">Home</a></li>
-      <li><a href="../workshop/index.html" class="hover-underline-animation">Workshops</a></li>
-      <li><a href="../events/index.html" class="hover-underline-animation">Events</a></li>
-      <li><a href="http://blog.malharfest.org" target="_blank" class="hover-underline-animation" >Blog</a></li>
-      <li><a href="" class="hover-underline-animation">Workforce</a></li>
-      <li><a href="../artlounge/index.html" class="hover-underline-animation">Art Lounge</a></li>
-      <li><a href="../particiption/index.html" class="hover-underline-animation">Participation</a></li>
-     <li><a href="../pre-registration/index.html" class="hover-underline-animation">Pre-Events</a></li>
-      <li><a href="../contact/index.html" class="hover-underline-animation">Contact Us</a></li>
-    </ul>
-  </nav>
+    <nav style="z-index: 300;">
+      <ul>
+        <li><a href="../../index.html" class="hover-underline-animation">Home</a></li>
+        <li><a href="../workshop/index.html" class="hover-underline-animation">Workshops</a></li>
+        <li><a href="../events/index.html" class="hover-underline-animation">Events</a></li>
+        <li><a href="http://blog.malharfest.org" target="_blank" class="hover-underline-animation">Blog</a></li>
+        <li><a href="" class="hover-underline-animation">Workforce</a></li>
+        <li><a href="../artlounge/index.html" class="hover-underline-animation">Art Lounge</a></li>
+        <li><a href="../particiption/index.html" class="hover-underline-animation">Participation</a></li>
+        <li><a href="../pre-registration/index.html" class="hover-underline-animation">Pre-Events</a></li>
+        <li><a href="../contact/index.html" class="hover-underline-animation">Contact Us</a></li>
+      </ul>
+    </nav>
 
-  <!--- Hamburger nav-->
-   <div class="collapse" style="z-index: 50;">
-    <ul class="navham">
-      <li><a href="../../index.html" class="hover-underline-animation">Home</a></li>
-      <li><a href="../workshop/index.html" class="hover-underline-animation">Workshops</a></li>
-      <li><a href="../events/index.html" class="hover-underline-animation">Events</a></li>
-      <li><a href="http://blog.malharfest.org" target="_blank" class="hover-underline-animation">Blog</a></li>
-      <li><a href="" class="hover-underline-animation">Workforce</a></li>
-      <li><a href="../artlounge/index.html" class="hover-underline-animation">Art Lounge</a></li>
-      <li><a href="../particiption/index.html" class="hover-underline-animation">Participation</a></li>
-     <li><a href="../pre-registration/index.html" class="hover-underline-animation">Pre-Events</a></li>
-      <li><a href="../contact/index.html" class="hover-underline-animation">Contact Us</a></li>
-    </ul>
-  </div>
-<!-- partial:index.partial.html -->
-
-<div class="title"><h1>WORKFORCE</h1></div>
-
-<div class="main">
-  
-    <div class="quartet">
-      <div class="blog-slider__wrp swiper-wrapper">
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            
-            <img src="./images/quartet.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">The Quartet</div>
-            <div class="blog-slider__text">The task of rerouting the legacy in the first-ever virtual Malhar lies in the hands of the Big Four. Q’21 is a melange of passion, potential, pretence and tons of humour. Though four, the quartet functions as a single entity. They’re ones to kickstart fest preparations and are also the last ones to sign off. The ones functioning virtually; the present quartet seeks to garnish this mediated Malhar with loads of positivity and the same amount of hype and enthusiasm as it has ever been.</div>
-          </div>
-        </div>
-      </div>
+    <!--- Hamburger nav-->
+    <div class="collapse" style="z-index: 50;">
+      <ul class="navham">
+        <li><a href="../../index.html" class="hover-underline-animation">Home</a></li>
+        <li><a href="../workshop/index.html" class="hover-underline-animation">Workshops</a></li>
+        <li><a href="../events/index.html" class="hover-underline-animation">Events</a></li>
+        <li><a href="http://blog.malharfest.org" target="_blank" class="hover-underline-animation">Blog</a></li>
+        <li><a href="" class="hover-underline-animation">Workforce</a></li>
+        <li><a href="../artlounge/index.html" class="hover-underline-animation">Art Lounge</a></li>
+        <li><a href="../particiption/index.html" class="hover-underline-animation">Participation</a></li>
+        <li><a href="../pre-registration/index.html" class="hover-underline-animation">Pre-Events</a></li>
+        <li><a href="../contact/index.html" class="hover-underline-animation">Contact Us</a></li>
+      </ul>
     </div>
-    <!-- line end -->
-    
- <!-- line end -->
+    <!-- partial:index.partial.html -->
 
-   
-
- <div class="blog-slider">
-  <div class="blog-slider__wrp swiper-wrapper">
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        
-        <img src="./images/events.png" alt="">
-      </div>
-      
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Events</div>
-        <div class="blog-slider__text">The ones who are keeping the competitive spirit of Malhar alive and rerouting the legacy of Malhar's events in this never-seen-before virtual setup. It's them who make Malhar as Event-ful as it gets!</div>
-      </div>
+    <div class="title">
+      <h1>WORKFORCE</h1>
     </div>
 
-   
+    <div class="main">
 
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="./images/admin.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Administration</div>
-        <div class="blog-slider__text">The rulebook creator of Malhar- Admin, works in the shadows to ensure the smooth functioning of this fest.  The baby of all the sub-departments i.e. Contingency Communication is the newest addition to the department. When in doubt, Admin is the department to fall back on. Being the most trustworthy of all, Admin abides by the motto "The show, in case of Malhar, the grand show, must go on." 
-          </div>
-      </div>
-    </div>
-    
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        <img src="./images/conclave.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Conclave</div>
-        <div class="blog-slider__text">If there is one department that aims to make Malhar an insightful experience, it is Conclave. Bagging the title of ‘Elites’, department conclave does justice to it every year with their list of speakers that reflect vision and innovation at best. They know how to multitask and keep calm under pressure. </div>
-      </div>
-
-    </div>
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        
-        <img src="./images/fa.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Fine Arts</div>
-        <div class="blog-slider__text">Creativity, Novelty, Innovation and Talent - You name it, they paint it. The department that never fails to include shades of colours in your life,  FA is the one with equal parts of coffee and paint stains. With paint brushes in their pockets, they are ready to e-voke the Van Gogh in you. With attention to detail, we ensure that precision remains their top priority, along with painting everlasting bonds. </div>
-      </div>
-    </div>
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        
-        <img src="./images/la.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Literary Arts</div>
-        <div class="blog-slider__text">Whenever in need of testing your wits, LA is the department to approach. The pun generator of all departments, LA is extremely precise about that one item you can never say no to, i.e. cheesecake (it is the official food of this department). Full of whack individuals, LA loves to believe that they're living a movie life, preferably 'LA LA LAnd'.  As our OC reiterates, "LA is Fam," a warm environment for each and everyone, that we can all safely call 'Home'. </div>
-      </div>
-
-      
-
-    </div>
-    <div class="blog-slider__item swiper-slide">
-      <div class="blog-slider__img">
-        
-        <img src="./images/pa.png" alt="">
-      </div>
-      <div class="blog-slider__content">
-        <div class="blog-slider__title">Performing Arts</div>
-        <div class="blog-slider__text">The Performing Arts Department this year is the first of its kind- bearing the herculean task of fusing both IPA and WPA into one! IPA or Indian Performing Arts is just the right amalgamation of all the Hindi films that we love and WPA or the World Performing Arts, on the other hand. If you see Malhar as the perfect concoction of music, dance and cheerful spirits, you know who made it possible.</div>
-      </div>
-
-      
-
-    </div>
-    
-  </div>
-  <div class="blog-slider__pagination"></div>
-</div>
-<!-- line end -->
-   
-
-    
-
-    <div class="blog-slider">
-      <div class="blog-slider__wrp swiper-wrapper">
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            
-            <img src="./images/management.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Management</div>
-            <div class="blog-slider__text">These are departments forming the compass that gives the fest direction. What are Management Departments like, you ask?
-              Well they do the tech, the money, the budget AND they're funny.</div>
-          </div>
-        </div>
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/mark.png"alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Marketing</div>
-            <div class="blog-slider__text">The backbone of Malhar, Marketing brings in all the cash (and much more) that is needed to run the whole show. On a regular day, they are stuck on long, tiring calls, working hard to get the financial support we need for Malhar. Due to their contagious enthusiasm and ambition, they get the work done to get the base ready for Malhar to be built on. Their specialities lie in multitasking and being extremely talented!</div>
-          </div>
-        </div>
-        
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/fin.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Finance</div>
-            <div class="blog-slider__text">Xavier's ‘Moffice’ houses a group of calculative individuals who look after the financing and budgeting of the fest. One might yawn at their monotonous engagement with spreadsheets, organisation, numbers, math and research but that’s where all the money is! When dealing with a tight budget, the finance department is at its best, trying not to compromise on the necessary expenses. The financers tally their puns and funs and always strike a balance between work and play! </div>
-          </div>
-        </div>
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/tex.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Technicals</div>
-            <div class="blog-slider__text">“Mic check 123!” Texxx has its wirlesses and connections with all the other departments of Malhar. Being the warehouse of all technical support, the department illuminates the fest by sweating through the rehearsals, trials and mocks. The drastic effect of the new normal has challenged this bunch of technical people to construct a virtual stage and help people experience Malhar on their screens. Besides being the only big 4 that survived the online set up, Texxx has transitioned into becoming an events department this year.</div>
-          </div>
-        </div>
-      </div>
-      <div class="blog-slider__pagination"></div>
-    </div>
-
-
-   
-    <div class="blog-slider">
-      <div class="blog-slider__wrp swiper-wrapper">
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            
-            <img src="./images/networking.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Networking</div>
-            <div class="blog-slider__text">They (net)work their way through everything that they need for Malhar and did the "Am I audible?" with an audience before it was the new normal.
-
-              Supreme graphics, expert salesman shop and technical expertise is what they bring to the table!</div>
-          </div>
-        </div>
-        
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/comp.png"alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Computers</div>
-            <div class="blog-slider__text">Computers as a department chooses to reside on Discord. In addition to the painful tracking down of bugs and trying to fix them, you'll probably find one member of the department or another awake at any time of the day. Finding snippets of code through infinite hours of scrolling, clear out something that's "bugging" you, or  helping the other OGs with all the problems in their computers. All these fall right under their domain.</div>
-          </div>
-        </div>
-        
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/creatives.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Creatives</div>
-            <div class="blog-slider__text">Creatives has merged with FnD this year to make one big family fuelled by a mutual love-hate relationship with Adobe. The department that ideates and creates and bonds over hunching over their laptops for hours making countless revisions to their work. Last minute changes and digital art are their priorities. They perpetually run on all-nighters and sticker collections. 
+      <div class="quartet">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/quartet.png" alt="The Quartet Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">The Quartet</div>
+              <div class="blog-slider__text" role="article">The task of rerouting the legacy in the first-ever virtual
+                Malhar lies in
+                the hands of the Big Four. Q’21 is a melange of passion, potential, pretence and tons of humour. Though
+                four, the quartet functions as a single entity. They’re ones to kickstart fest preparations and are also
+                the last ones to sign off. The ones functioning virtually; the present quartet seeks to garnish this
+                mediated Malhar with loads of positivity and the same amount of hype and enthusiasm as it has ever been.
               </div>
+            </div>
           </div>
         </div>
-        <div class="blog-slider__item swiper-slide">
-          <div class="blog-slider__img">
-            <img src="./images/pr.png" alt="">
-          </div>
-          <div class="blog-slider__content">
-            <div class="blog-slider__title">Public Relations</div>
-            <div class="blog-slider__text">This department is the face of the festival. They know what to sell and how to sell it. Ranging starkly from being multi-taskers to multi-linguists. They truly understand the aesthetics of Malhar and carefully put it on a platter for the world to watch. If you see the booming Instagram stats, you know that the PR masterminds are proud of their good work.</div>
-          </div>
-        </div>
-        
       </div>
-      
-      <div class="blog-slider__pagination"></div>
+      <!-- line end -->
+
+      <!-- line end -->
+
+
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/events.png" alt="Events Logo">
+            </div>
+
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Events</div>
+              <div class="blog-slider__text" role="article">The ones who are keeping the competitive spirit of Malhar
+                alive and
+                rerouting the legacy of Malhar's events in this never-seen-before virtual setup. It's them who make
+                Malhar as Event-ful as it gets!</div>
+            </div>
+          </div>
+
+
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/admin.png" alt="Administration Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Administration</div>
+              <div class="blog-slider__text" role="article">The rulebook creator of Malhar- Admin, works in the shadows
+                to ensure the
+                smooth functioning of this fest. The baby of all the sub-departments i.e. Contingency Communication is
+                the newest addition to the department. When in doubt, Admin is the department to fall back on. Being the
+                most trustworthy of all, Admin abides by the motto "The show, in case of Malhar, the grand show, must go
+                on."
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/conclave.png" alt="Conclave Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Conclave</div>
+              <div class="blog-slider__text" role="article">If there is one department that aims to make Malhar an
+                insightful
+                experience, it is Conclave. Bagging the title of ‘Elites’, department conclave does justice to it every
+                year with their list of speakers that reflect vision and innovation at best. They know how to multitask
+                and keep calm under pressure. </div>
+            </div>
+
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/fa.png" alt="Fine Arts Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Fine Arts</div>
+              <div class="blog-slider__text" role="article">Creativity, Novelty, Innovation and Talent - You name it,
+                they paint it.
+                The department that never fails to include shades of colours in your life, FA is the one with equal
+                parts of coffee and paint stains. With paint brushes in their pockets, they are ready to e-voke the Van
+                Gogh in you. With attention to detail, we ensure that precision remains their top priority, along with
+                painting everlasting bonds. </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/la.png" alt="Literary Arts logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Literary Arts</div>
+              <div class="blog-slider__text" role="article">Whenever in need of testing your wits, LA is the department
+                to approach.
+                The pun generator of all departments, LA is extremely precise about that one item you can never say no
+                to, i.e. cheesecake (it is the official food of this department). Full of whack individuals, LA loves to
+                believe that they're living a movie life, preferably 'LA LA LAnd'. As our OC reiterates, "LA is Fam," a
+                warm environment for each and everyone, that we can all safely call 'Home'. </div>
+            </div>
+
+
+
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/pa.png" alt="Performing Arts Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Performing Arts</div>
+              <div class="blog-slider__text" role="article">The Performing Arts Department this year is the first of its
+                kind- bearing
+                the herculean task of fusing both IPA and WPA into one! IPA or Indian Performing Arts is just the right
+                amalgamation of all the Hindi films that we love and WPA or the World Performing Arts, on the other
+                hand. If you see Malhar as the perfect concoction of music, dance and cheerful spirits, you know who
+                made it possible.</div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+      <!-- line end -->
+
+
+
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/management.png" alt="Management Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Management</div>
+              <div class="blog-slider__text" role="article">These are departments forming the compass that gives the
+                fest direction.
+                What are Management Departments like, you ask?
+                Well they do the tech, the money, the budget AND they're funny.</div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/mark.png" alt="Marketing Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Marketing</div>
+              <div class="blog-slider__text" role="article">The backbone of Malhar, Marketing brings in all the cash
+                (and much more)
+                that is needed to run the whole show. On a regular day, they are stuck on long, tiring calls, working
+                hard to get the financial support we need for Malhar. Due to their contagious enthusiasm and ambition,
+                they get the work done to get the base ready for Malhar to be built on. Their specialities lie in
+                multitasking and being extremely talented!</div>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/fin.png" alt="Finance Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Finance</div>
+              <div class="blog-slider__text" role="article">Xavier's ‘Moffice’ houses a group of calculative individuals
+                who look after
+                the financing and budgeting of the fest. One might yawn at their monotonous engagement with
+                spreadsheets, organisation, numbers, math and research but that’s where all the money is! When dealing
+                with a tight budget, the finance department is at its best, trying not to compromise on the necessary
+                expenses. The financers tally their puns and funs and always strike a balance between work and play!
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/tex.png" alt="Technicals Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Technicals</div>
+              <div class="blog-slider__text" role="article">“Mic check 123!” Texxx has its wirlesses and connections
+                with all the other
+                departments of Malhar. Being the warehouse of all technical support, the department illuminates the fest
+                by sweating through the rehearsals, trials and mocks. The drastic effect of the new normal has
+                challenged this bunch of technical people to construct a virtual stage and help people experience Malhar
+                on their screens. Besides being the only big 4 that survived the online set up, Texxx has transitioned
+                into becoming an events department this year.</div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+
+
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+
+              <img src="./images/networking.png" alt="Networking Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Networking</div>
+              <div class="blog-slider__text" role="article">They (net)work their way through everything that they need
+                for Malhar and
+                did the "Am I audible?" with an audience before it was the new normal.
+
+                Supreme graphics, expert salesman shop and technical expertise is what they bring to the table!</div>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/comp.png" alt="Computers Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Computers</div>
+              <div class="blog-slider__text" role="article">Computers as a department chooses to reside on Discord. In
+                addition to the
+                painful tracking down of bugs and trying to fix them, you'll probably find one member of the department
+                or another awake at any time of the day. Finding snippets of code through infinite hours of scrolling,
+                clear out something that's "bugging" you, or helping the other OGs with all the problems in their
+                computers. All these fall right under their domain.</div>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/creatives.png" alt="Creatives Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Creatives</div>
+              <div class="blog-slider__text" role="article">Creatives has merged with FnD this year to make one big
+                family fuelled by a
+                mutual love-hate relationship with Adobe. The department that ideates and creates and bonds over
+                hunching over their laptops for hours making countless revisions to their work. Last minute changes and
+                digital art are their priorities. They perpetually run on all-nighters and sticker collections.
+              </div>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./images/pr.png" alt="Public Relations Logo">
+            </div>
+            <div class="blog-slider__content">
+              <div class="blog-slider__title" role="heading" aria-level="2">Public Relations</div>
+              <div class="blog-slider__text" role="article">This department is the face of the festival. They know what
+                to sell and how
+                to sell it. Ranging starkly from being multi-taskers to multi-linguists. They truly understand the
+                aesthetics of Malhar and carefully put it on a platter for the world to watch. If you see the booming
+                Instagram stats, you know that the PR masterminds are proud of their good work.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="blog-slider__pagination"></div>
+      </div>
+      <!-- line end -->
     </div>
-<!-- line end -->
-  </div>
 
 
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script><script  src="./script.js"></script>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src="./script.js"></script>
 
-</body>
+  </body>
+
 </html>
