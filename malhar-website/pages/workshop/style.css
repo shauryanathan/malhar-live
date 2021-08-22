@@ -177,6 +177,14 @@
    }
    
    /* OUR CSS */
+   figure{
+     color: #cecece;
+     font-family: 'Overpass' , sans-serif;
+     padding-top: 2%;
+   }
+   .button a{
+     color: white;
+   }
    .second{
      padding-top: 10%;
    }
@@ -211,16 +219,12 @@
        margin-right: auto;
        margin-top: 5%;
        transition: ease-in-out , 0.2s;
-
+       margin-bottom: 8%;
    }
-   .button:hover{
-       background-color: white;
-   }
-   .button:hover{
-    color: #000000;
-}
+   
    .button{
        color: white;
+       
    }
    nav {
      visibility: hidden;
@@ -283,6 +287,10 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     .button a{
+       padding: 2.5%;
+       
+     }
      h1{
        font-size: 4vh;
      }
@@ -473,6 +481,9 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      figure{
+        font-size: 2.5vh;
+      }
       .collapse{
         visibility: hidden;
       }
@@ -491,12 +502,18 @@
     .main{
         padding-top: 5%;
     }
+
     .button{
         margin: 0;
         margin-left: auto;
         margin-right: auto;
         margin-top: 2%;
-        width: 17%;
+        margin-bottom: 5%;
+        padding: 0;
+        width: 10%;
+    }
+    .button a{
+      padding: 20%;
     }
      /* Hamburger CSS */
      .toggle {
