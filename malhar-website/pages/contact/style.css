@@ -149,13 +149,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,19 +163,19 @@
      background-image: url("y-so-serious.png");
      overflow-x: hidden;
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
 
    .footer{
@@ -188,7 +188,7 @@
      margin-right: auto;
      margin-top: 7%;
    }
-   
+
    nav {
      visibility: hidden;
      position: absolute;
@@ -238,15 +238,16 @@
   }
   p {
     text-align: center;
-  } 
+  }
 
    /* Contact us box */
    form input:focus{
      outline: none;
      border-bottom: 2px solid white;
-     
+
+
    }
-  
+
    .form{
     margin-left: 22%;
    }
@@ -259,7 +260,7 @@
      padding: 20% 0% 6%;
 
    }
-   
+
     h3{
       color: white ;
       margin: 3% 0%;
@@ -279,14 +280,14 @@
       border: none;
       outline: none;
       border-bottom: 2px solid black;
-      
-      
+
+
     }
     form textarea:focus{
       outline: none;
       border-bottom: 2px solid white;
       transform: translateY(-4px);
-      
+
 
     }
     .button{
@@ -303,9 +304,14 @@
       color: black;
       cursor: pointer;
     }
-    
+
     textarea{
       resize: none;
+    }
+    textarea:focus{
+      color: black;
+      border-radius: 0%;
+
     }
     .button{
       background: none;
@@ -313,7 +319,7 @@
       border: solid white 2px;
       border-radius: 0%;
     }
- 
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
@@ -445,12 +451,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -458,7 +464,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -469,7 +475,7 @@
        display: block;
        width: 76px;
      }
-     
+
      textarea{
        margin: 5% 2%;
      }
@@ -486,8 +492,8 @@
     }
    }
 
-   
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .collapse{
@@ -499,7 +505,7 @@
      .header h1 {
        font-size: 10vh;
      }
-   
+
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;
@@ -510,7 +516,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -530,7 +536,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -539,7 +545,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -559,7 +565,7 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
+
      .section {
        padding: 2% 0%;
      }
@@ -574,19 +580,19 @@
        flex-wrap: wrap;
        padding-top: 10%;
      }
-   
+
      .to_be_logo {
        width: 40%;
        margin: 0%;
        padding: 0%;
      }
-   
+
      .info {
        width: 50%;
        margin: 0%;
        padding: 0%;
      }
-   
+
      .info h3 {
        padding: 0% 0% 2%;
        font-size: 6vh;
@@ -614,7 +620,7 @@
        width: 14vw;
        color: white;
        text-align: left;
-       
+
      }
      .form{
        padding:0%;
@@ -670,6 +676,5 @@
        padding-left: 3%;
      }
 
-     
+
    }
-   
