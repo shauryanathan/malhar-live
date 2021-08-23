@@ -183,9 +183,7 @@
      font-family: 'Overpass' , sans-serif;
      padding-top: 2%;
    }
-   .button a{
-     color: white;
-   }
+   
    .second{
      padding-top: 10%;
    }
@@ -211,22 +209,31 @@
        margin-bottom: 7%;
    }
    .button{
-       color: #fff;
-       border: 2px solid  white;
-       width: 30%;
-       font-size: 3vh;
-       font-family: 'Overpass' , sans-serif;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: 5%;
-       transition: ease-in-out , 0.2s;
-       margin-bottom: 8%;
-   }
-   
-   .button{
-       color: white;
-       
-   }
+    color: #fff;
+    border: 2px solid  white;
+    width: 30%;
+    font-size: 3vh;
+    font-family: 'Overpass' , sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    transition: ease-in-out , 0.2s;
+
+}
+.button:hover{
+    background-color: white;
+}
+.button:hover{
+ color: #000000;
+}
+.button{
+    color: white;
+}
+.button:focus{
+  background-color: white;
+  color: #000000;
+}
    nav {
      visibility: hidden;
      position: absolute;
@@ -503,19 +510,15 @@
     .main{
         padding-top: 5%;
     }
-
     .button{
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2%;
-        margin-bottom: 5%;
-        padding: 0;
-        width: 10%;
-    }
-    .button a{
-      padding: 20%;
-    }
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+      width: 12%;
+      
+      margin-bottom: 5%;
+  }
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;
