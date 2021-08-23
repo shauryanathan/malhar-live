@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="../../favicon_package_v0.16/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon_package_v0.16/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_package_v0.16/favicon-16x16.png">
-  <link rel="manifest" href="../../favicon_package_v0.16/site.webmanifest">
-  <link rel="mask-icon" href="../../favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <head>
 
-  <!-- Meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Error 404</title>
-  <meta charset="utf-8" />
-  <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
-  <meta name="author" content="Malhar Computers Team" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="../../favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="../../favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- CSS -->
-  <link rel="stylesheet" media="screen" href="style.css" />
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error 404</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Malhar 2021 - St. Xavier's College, Mumbai " />
+    <meta name="author" content="Malhar Computers Team" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" media="screen" href="style.css" />
 
 
     <!-- Fonts -->
@@ -35,263 +36,277 @@
     <script src="../../loadnav.js"></script>
     <script src="main.js"></script>
 
-</head>
-<body>  
-  <style>
-    html, body{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    /* background-image: url("dark-pattern-2.jpg"); */
-    color: white;
-    overflow: hidden;
-    text-align: center;
-    font-size: 2vw;;
-    text-shadow: 2px 2px 4px #000000; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  </head>
 
-h1{
-    font-family: 'Krona One', sans-serif;
-    font-size: 4vw;
-    max-lines: 1;
-    margin-bottom: 10%;
-}
+  <body>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        /* background-image: url("dark-pattern-2.jpg"); */
+        color: white;
+        overflow: hidden;
+        text-align: center;
+        font-size: 2vw;
+        ;
+        text-shadow: 2px 2px 4px #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-h3, h4{
-    font-size: 2.5vw;
-    font-family: 'Overpass', serif;
-}
+      h1 {
+        font-family: 'Krona One', sans-serif;
+        font-size: 4vw;
+        max-lines: 1;
+        margin-bottom: 10%;
+      }
 
-.top {
-    margin-top: 30px;
-  }
-  
-  .container {
-    margin: 0 auto;
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin-top: -40px;
-  }
-  
-  .ghost {
-    width: 50%;
-    height: 53%;
-    left: 25%;
-    top: 10%;
-    position: absolute;
-    border-radius: 50% 50% 0 0;
-    background: #ededed;
-    border: 1px solid #bfc0c0;
-    border-bottom: none;
-    animation: float 2s ease-out infinite;
-  }
-  
-  .ghost-copy {
-    width: 50%;
-    height: 53%;
-    left: 25%;
-    top: 10%;
-    position: absolute;
-    border-radius: 50% 50% 0 0;
-    background: #ededed;
-    border: 1px solid #bfc0c0;
-    border-bottom: none;
-    animation: float 2s ease-out infinite;
-    z-index: 0;
-  }
-  
-  .face {
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    top: 20%;
-  }
-  
-  .eye,
-  .eye-right {
-    position: absolute;
-    background: #585959;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    top: 40%;
-  }
-  
-  .eye {
-    left: 25%;
-  }
-  
-  .eye-right {
-    right: 25%;
-  }
-  
-  .mouth {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    width: 10px;
-    height: 10px;
-    border: 3px solid;
-    border-radius: 50%;
-    border-color: transparent #585959 #585959 transparent;
-    transform: rotate(45deg);
-  }
-  
-  .one,
-  .two,
-  .three,
-  .four {
-    position: absolute;
-    background: #ededed;
-    top: 85%;
-    width: 25%;
-    height: 23%;
-    border: 1px solid #bfc0c0;
-    z-index: 0;
-  }
-  
-  .one {
-    border-radius: 0 0 100% 30%;
-    left: -1px;
-  }
-  
-  .two {
-    left: 23%;
-    border-radius: 0 0 50% 50%;
-  }
-  
-  .three {
-    left: 50%;
-    border-radius: 0 0 50% 50%;
-  }
-  
-  .four {
-    left: 74.5%;
-    border-radius: 0 0 30% 100%;
-  }
-  
-  .shadow {
-    position: absolute;
-    width: 30%;
-    height: 7%;
-    background: #bfc0c0;
-    left: 35%;
-    top: 80%;
-    border-radius: 50%;
-    animation: scale 2s infinite;
-  }
-  
-  @keyframes scale {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  @keyframes float {
-    50% {
-      transform: translateY(15px);
-    }
-  }
-  .bottom {
-    margin-top: 10px;
-  }
-  
-  
-  p {
-    text-align: center;
-    font-family: "Overpass", sans-serif;
-    color: #d6d6d6;
-    font-size: 0.6em;
-    margin-top: -20px;
-    text-transform: uppercase;
-  }
-  
-  .search {
-    text-align: center;
-  }
-  
-  .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  /*search style*/
-  .search-bar {
-    border: 1px solid #bfc0c0;
-    padding: 5px;
-    height: 20px;
-    margin-left: -30px;
-    width: 200px;
-    outline: none;
-  }
-  .search-bar:focus {
-    border: 1px solid #d3deea;
-  }
-  
-  .search-btn {
-    position: absolute;
-    width: 30px;
-    height: 32px;
-    border: 1px solid #bfc0c0;
-    background: #bfc0c0;
-    text-align: center;
-    color: #ededed;
-    cursor: pointer;
-    font-size: 1em;
-    outline: none;
-  }
-  .search-btn:hover {
-    background: #ededed;
-    border: 1px solid #ededed;
-    color: #bfc0c0;
-    transition: all 0.2s ease;
-  }
-  
-  .btn {
-    background: #ededed;
-    padding: 15px 20px;
-    margin: 5px;
-    color: #0c0c0c;
-    font-family: "Overpass", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5vw;
-    letter-spacing: 1px;
-    border: 0;
-  }
-  .btn:hover {
-    background: #bfc0c0;
-    transition: all 0.4s ease-out;
-  }
+      h3,
+      h4 {
+        font-size: 2.5vw;
+        font-family: 'Overpass', serif;
+      }
 
-  /* MEDIA FOR MOBILE ONLY */
-@media (max-width: 500px) {
-     h1{
-      font-size: 8vw;
-    }
-    p, h3{
-        font-size: 5vw;
-    }
-    .btn{
-        font-size: 3vw;
-    }
-}  
-  </style>
+      .top {
+        margin-top: 30px;
+      }
 
-  
+      .container {
+        margin: 0 auto;
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin-top: -40px;
+      }
+
+      .ghost {
+        width: 50%;
+        height: 53%;
+        left: 25%;
+        top: 10%;
+        position: absolute;
+        border-radius: 50% 50% 0 0;
+        background: #ededed;
+        border: 1px solid #bfc0c0;
+        border-bottom: none;
+        animation: float 2s ease-out infinite;
+      }
+
+      .ghost-copy {
+        width: 50%;
+        height: 53%;
+        left: 25%;
+        top: 10%;
+        position: absolute;
+        border-radius: 50% 50% 0 0;
+        background: #ededed;
+        border: 1px solid #bfc0c0;
+        border-bottom: none;
+        animation: float 2s ease-out infinite;
+        z-index: 0;
+      }
+
+      .face {
+        position: absolute;
+        width: 100%;
+        height: 60%;
+        top: 20%;
+      }
+
+      .eye,
+      .eye-right {
+        position: absolute;
+        background: #585959;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        top: 40%;
+      }
+
+      .eye {
+        left: 25%;
+      }
+
+      .eye-right {
+        right: 25%;
+      }
+
+      .mouth {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 10px;
+        height: 10px;
+        border: 3px solid;
+        border-radius: 50%;
+        border-color: transparent #585959 #585959 transparent;
+        transform: rotate(45deg);
+      }
+
+      .one,
+      .two,
+      .three,
+      .four {
+        position: absolute;
+        background: #ededed;
+        top: 85%;
+        width: 25%;
+        height: 23%;
+        border: 1px solid #bfc0c0;
+        z-index: 0;
+      }
+
+      .one {
+        border-radius: 0 0 100% 30%;
+        left: -1px;
+      }
+
+      .two {
+        left: 23%;
+        border-radius: 0 0 50% 50%;
+      }
+
+      .three {
+        left: 50%;
+        border-radius: 0 0 50% 50%;
+      }
+
+      .four {
+        left: 74.5%;
+        border-radius: 0 0 30% 100%;
+      }
+
+      .shadow {
+        position: absolute;
+        width: 30%;
+        height: 7%;
+        background: #bfc0c0;
+        left: 35%;
+        top: 80%;
+        border-radius: 50%;
+        animation: scale 2s infinite;
+      }
+
+      @keyframes scale {
+        0% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.1);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes float {
+        50% {
+          transform: translateY(15px);
+        }
+      }
+
+      .bottom {
+        margin-top: 10px;
+      }
+
+
+      p {
+        text-align: center;
+        font-family: "Overpass", sans-serif;
+        color: #d6d6d6;
+        font-size: 0.6em;
+        margin-top: -20px;
+        text-transform: uppercase;
+      }
+
+      .search {
+        text-align: center;
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      /*search style*/
+      .search-bar {
+        border: 1px solid #bfc0c0;
+        padding: 5px;
+        height: 20px;
+        margin-left: -30px;
+        width: 200px;
+        outline: none;
+      }
+
+      .search-bar:focus {
+        border: 1px solid #d3deea;
+      }
+
+      .search-btn {
+        position: absolute;
+        width: 30px;
+        height: 32px;
+        border: 1px solid #bfc0c0;
+        background: #bfc0c0;
+        text-align: center;
+        color: #ededed;
+        cursor: pointer;
+        font-size: 1em;
+        outline: none;
+      }
+
+      .search-btn:hover {
+        background: #ededed;
+        border: 1px solid #ededed;
+        color: #bfc0c0;
+        transition: all 0.2s ease;
+      }
+
+      .btn {
+        background: #ededed;
+        padding: 15px 20px;
+        margin: 5px;
+        color: #0c0c0c;
+        font-family: "Overpass", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+        border: 0;
+      }
+
+      .btn:hover {
+        background: #bfc0c0;
+        transition: all 0.4s ease-out;
+      }
+
+      /* MEDIA FOR MOBILE ONLY */
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 8vw;
+        }
+
+        p,
+        h3 {
+          font-size: 5vw;
+        }
+
+        .btn {
+          font-size: 3vw;
+        }
+      }
+    </style>
+
+
     <div>
-    <h1>404 Page Not Found</h1>
-    <div class="container">
+      <h1>404 Page Not Found</h1>
+      <div class="container">
         <div class="ghost-copy">
           <div class="one"></div>
           <div class="two"></div>
@@ -306,23 +321,24 @@ h3, h4{
           </div>
         </div>
         <div class="shadow"></div>
-    </div>
-    <div class="bottom">
+      </div>
+      <div class="bottom">
         <p>Boo, looks like a ghost stole this page!</p>
-    </div>
-    <h3>The page you are looking for does not exist</h3>
-    <script>
-      function home()
-      {
+      </div>
+      <h3 role="alert">The page you are looking for does not exist</h3>
+      <script>
+        function home()
+        {
           window.location = "https://malharfest.org/index.html";
-      }
-  
-    </script>
-    <div class="buttons">
+        }
+
+      </script>
+      <div class="buttons">
         <button class="btn" onclick="home()">Home</button>
-    </div>
+      </div>
     </div>
 
 
-</body>
+  </body>
+
 </html>
