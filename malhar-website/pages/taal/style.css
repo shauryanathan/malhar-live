@@ -176,6 +176,9 @@
    }
    
    /* OUR CSS */
+   .ham{
+     z-index: 1000000000;
+   }
    h1{
      font-size: 7vh;
      font-family: 'Krona One' , sans-serif;
@@ -235,6 +238,7 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+    
      h1{
        padding-top: 75%;
        font-size: 4vh;
@@ -288,7 +292,7 @@
        width: 47%;
        height: 2px;
        border-radius: 1px;
-       background: #000;
+       background: #fff;
        position: absolute;
        -webkit-backface-visibility: hidden;
        transition: transform 0.5s ease, border-radius 0.3s ease,
@@ -332,7 +336,7 @@
      }
      .toggle input:checked + div div span:before,
      .toggle input:checked + div div span:after {
-       background: #000;
+       background: #fff;
      }
      .toggle input:checked + div div span:first-child:before {
        transform: rotate(45deg) translate(2.2px, -3px) scaleX(1.05);
@@ -350,7 +354,7 @@
        stroke-dashoffset: 62;
        stroke-dasharray: 0 82.801 62 82.801;
        transform: rotate(90deg);
-       stroke: #000;
+       stroke: #fff;
      }
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
@@ -399,7 +403,7 @@
      width: 80vw;
      height: 60vh;
      background-color:black;
-     border: 1px solid #000;
+     border: 1px solid #fff;
      margin-left: auto;
      margin-right: auto;
    }
@@ -505,7 +509,7 @@
        top: 50%;
        right: 0;
        left: 0;
-       width: 430px;
+       width: 380px;
        height: 100px;
        margin: -4px auto;
    }
@@ -798,7 +802,7 @@
        width: 26px;
        height: 26px;
        padding: 25px;
-       background-color: #052323;
+       background-color: #0c4b4b;
        border-radius: 6px;
        cursor: pointer;
    }
@@ -819,7 +823,7 @@
    
    .button:hover
    {
-       background-color: #052323;
+       background-color: #0c4b4b;
    }
    
    .button:hover i
@@ -842,3 +846,4 @@
      box-shadow: 0 10px 20px -5px rgba(20, 20, 20, 0.86);
      z-index: 125;
    }
+   
