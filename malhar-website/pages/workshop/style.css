@@ -220,20 +220,19 @@
     margin-bottom: 4%;
     transition: ease-in-out , 0.2s;
 
-}
-.button:hover{
-    background-color: white;
-}
-.button:hover{
- color: #000000;
-}
-.button{
-    color: white;
-}
-.button:focus{
-  background-color: white;
+  }
+  .button:hover{
+      background-color: white;
+  }
+  .button:hover{
   color: #000000;
-}
+  }
+
+  .button:focus{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
    nav {
      visibility: hidden;
      position: absolute;

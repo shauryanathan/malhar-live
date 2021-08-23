@@ -244,6 +244,7 @@
    form input:focus{
      outline: none;
      border-bottom: 2px solid white;
+     
    }
   
    .form{
@@ -285,6 +286,7 @@
       outline: none;
       border-bottom: 2px solid white;
       transform: translateY(-4px);
+      
 
     }
     .button{
@@ -292,6 +294,11 @@
       text-align: center;
     }
     .button:hover{
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+    .button:focus{
       background-color: white;
       color: black;
       cursor: pointer;
