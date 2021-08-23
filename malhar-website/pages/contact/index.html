@@ -105,40 +105,41 @@
         <li><a href="" class="hover-underline-animation">Contact Us</a></li>
       </ul>
     </div>
+    <main id="maincontent">
+      <h1>CONTACT US</h1>
+      <div class="form">
+        <form method="post" autocomplete="off" name="google-sheet">
 
-    <h1>CONTACT US</h1>
-    <div class="form">
-      <form method="post" autocomplete="off" name="google-sheet">
 
+          <div class="flex_container">
+            <div class="form-group">
+              <input type="text" name="Name" class="form-control" required placeholder="Enter your Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="Email" class="form-control" required placeholder="Enter your Email" />
+            </div>
 
-        <div class="flex_container">
-          <div class="form-group">
-            <input type="text" name="Name" class="form-control" required placeholder="Enter your Name" />
           </div>
+
+
           <div class="form-group">
-            <input type="text" name="Email" class="form-control" required placeholder="Enter your Email" />
+            <input type="number" name="Phone" class="form-control" maxlength="10" required
+              placeholder="Enter your Mobile No." />
           </div>
 
-        </div>
 
+          <div class="form-group">
+            <textarea id="message" cols="30" rows="7" name="Message" class="form-control" placeholder="Issue"
+              required></textarea>
+          </div>
 
-        <div class="form-group">
-          <input type="number" name="Phone" class="form-control" maxlength="10" required
-            placeholder="Enter your Mobile No." />
-        </div>
+          <div class="form-group">
+            <input type="submit" name="submit" class="btnSubmit btn-block button" id="submit_button" value="Submit" />
+          </div>
+        </form>
 
-
-        <div class="form-group">
-          <textarea id="message" cols="30" rows="7" name="Message" class="form-control" placeholder="Issue"
-            required></textarea>
-        </div>
-
-        <div class="form-group">
-          <input type="submit" name="submit" class="btnSubmit btn-block button" id="submit_button" value="Submit" />
-        </div>
-      </form>
-
-    </div>
+      </div>
+    </main>
 
 
 
