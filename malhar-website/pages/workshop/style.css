@@ -116,6 +116,9 @@
      background: transparent;
      text-decoration: none;
    }
+   .link:focus{
+     background-color: white;
+   }
    mark {
      background-color: #ff9;
      color: #000;
@@ -149,13 +152,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,27 +166,27 @@
      background-color: black;
      background-image: url(bg.png);
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
-   
+
    figure{
      color: #cecece;
      font-family: 'Overpass' , sans-serif;
      padding-top: 2%;
    }
-   
+
    .second{
      padding-top: 10%;
    }
@@ -223,11 +226,8 @@
   }
   .button:hover{
       background-color: white;
+        color: #000000;
   }
-  .button:hover{
-  color: #000000;
-  }
-
   .button:focus{
     background-color: white;
     color: black;
@@ -237,7 +237,7 @@
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -279,7 +279,7 @@
   }
   p {
     text-align: center;
-  } 
+  }
   .visually-hidden {
     height: opx;
     width: 0px;
@@ -288,15 +288,15 @@
     padding: 0px;
     position: absolute;
     border: 0px;
-} 
+}
 
-   
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      .button a{
        padding: 2.5%;
-       
+
      }
      h1{
        font-size: 4vh;
@@ -417,12 +417,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -430,7 +430,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -441,7 +441,7 @@
        display: block;
        width: 76px;
      }
-     
+
    }
   .image{
     width: 200px;
@@ -456,7 +456,7 @@
     background-size: 180% , 180%;
     background-repeat: no-repeat;
   }
-   
+
    .box{
      width: 80vw;
      height: 60vh;
@@ -484,8 +484,8 @@
      font-family: 'Overpass' , sans-serif;
    }
 
-   
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       figure{
@@ -515,7 +515,7 @@
       margin-right: auto;
       margin-top: 2%;
       width: 12%;
-      
+
       margin-bottom: 5%;
   }
      /* Hamburger CSS */
@@ -528,7 +528,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -548,7 +548,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -557,7 +557,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -577,7 +577,6 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
-     
+
+
    }
-   
