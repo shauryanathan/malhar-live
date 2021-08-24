@@ -40,6 +40,27 @@
 
   <body>
     <style>
+      .SkipLinkText {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        margin: -1px;
+        padding: -1px;
+        overflow: hidden;
+      }
+
+      .SkipLinkText:focus {
+        color: #2C3531;
+        background-color: #D1E8E2;
+        display: inline-block;
+        height: auto;
+        width: auto;
+        position: static;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+      }
+
       html,
       body {
         width: 100%;
@@ -302,7 +323,8 @@
         }
       }
     </style>
-
+    <!-- skip  Link  -->
+    <a href="#maincontent" class="SkipLinkText">Skip to main Content </a>
 
     <div role="main" id="maincontent">
       <h1>404 Page Not Found</h1>

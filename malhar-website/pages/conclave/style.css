@@ -1,3 +1,23 @@
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -149,13 +169,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,26 +183,26 @@
      background-image: url("./what-the-hex-dark.png");
      background-attachment: fixed;
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
-   
+
    nav {
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -224,14 +244,14 @@
   }
   p {
     text-align: center;
-  } 
+  }
 
   .image{
     width: 50vw;
     height: 30vh;
     position: absolute;
     margin-top: -15%;
-  
+
     margin-left: 25vw;
     background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
     background-position: center;
@@ -239,7 +259,7 @@
     background-repeat: no-repeat;
 
   }
-   
+
    .box{
      width: 80vw;
      height: 60vh;
@@ -266,11 +286,11 @@
      font-size: 2vh;
      font-family: 'Overpass' , sans-serif;
    }
-  
 
-   
 
-   
+
+
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
@@ -390,12 +410,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -403,7 +423,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -414,10 +434,10 @@
        display: block;
        width: 76px;
      }
-     
+
    }
- 
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .collapse{
@@ -433,7 +453,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -453,7 +473,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -462,7 +482,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -492,8 +512,8 @@
 
 
      }
-     
-    
+
+
      .box{
       padding: 0;
       margin: 0;
@@ -521,6 +541,5 @@
       text-align: left;
     }
 
-     
+
    }
-   

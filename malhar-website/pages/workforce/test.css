@@ -1,3 +1,23 @@
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -149,13 +169,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,19 +183,19 @@
      background: #000000;
      overflow-x: hidden;
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
    .title{
        color: white;
@@ -391,7 +411,7 @@
   }
 
 
-  
+
 }
 
 
@@ -507,7 +527,7 @@ body {
   flex-shrink: 0;
   height: 300px;
   border-radius: 20px;
-  
+
   transform: translateX(-80px);
   overflow: hidden;
 }
@@ -530,7 +550,7 @@ body {
   opacity: 0;
   border-radius: 20px;
   transition: all 0.3s;
-  
+
 }
 @media(max-width: 350px){
   .blog-slider__img img{
@@ -592,7 +612,7 @@ body {
   color: #ffff;
   margin-bottom: 30px;
   line-height: 1.5em;
-  
+
 }
 .title{
   text-align: center;
@@ -608,7 +628,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #0000;
-  
+
 }
 
 .blog-slider__button {
@@ -684,7 +704,7 @@ body {
   }
 }
 
-   
+
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
     /* Hamburger CSS */
@@ -693,18 +713,18 @@ body {
     }
     .blog-slider__text{
       font-size: 1.8vh;
-      
+
     }
     .toggle {
       visibility: hidden;
       position: absolute;
-      z-index: 120; 
+      z-index: 120;
     }
     .dribbble {
       visibility: hidden;
       position: absolute;
     }
-  
+
     /* NAV CSS */
     nav {
       position: absolute;
@@ -727,7 +747,7 @@ body {
     }
     a {
       font-family: "Overpass", sans-serif;
-  
+
       text-decoration: none;
       color: white;
     }
@@ -736,7 +756,7 @@ body {
       position: relative;
       color: white;
     }
-  
+
     .hover-underline-animation:after {
       content: "";
       position: absolute;
@@ -756,6 +776,6 @@ body {
       transform: scaleX(1);
       transform-origin: bottom left;
     }
-  
-    
+
+
   }
