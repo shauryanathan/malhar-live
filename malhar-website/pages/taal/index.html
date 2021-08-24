@@ -106,6 +106,8 @@
     </div>
 
     <h1>TAAL MAGAZINE</h1>
+    
+    <!-- magazine -->
     <div class="flipbook-viewport">
       <div class="container">
         <div class="flipbook">
@@ -125,6 +127,7 @@
       </div>
     </div>    
 
+    <!-- Audio player -->
       <div class="player">
         <audio class="player__audio viewer">
           <source src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mpeg" data-trackid="1">
@@ -154,7 +157,10 @@
           <button class="forward" style="opacity: 0;"><i class="fas fa-forward fa-2x"></i></button>
         </div>
       </div>
+
       <script type="text/javascript">
+
+      // for iphone SE and small af devices
         if($(window).width()<321){
           turn = new TurnJS('.flipbook',{
           
@@ -175,6 +181,8 @@
               autoCenter: true,
       
       } );}
+
+      // for large mobiles
         else if($(window).width()>321 && $(window).width()<501){
           turn = new TurnJS('.flipbook',{
           
@@ -197,6 +205,7 @@
       } );
 
       }
+      // for desktop
       else{
         turn = new TurnJS('.flipbook',{
         
@@ -247,6 +256,8 @@
 
   transform: translate(-50%,-50%);
 }
+
+/* Flipbook size for big phones */
  @media only screen and (min-width: 321px) and (max-width: 501px){
   .flipbook-viewport .container{
 	position:absolute;
@@ -254,8 +265,7 @@
 	left:50%;
   transform: translate(-50%,-50%);
 }
-
-  }
+}
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;
