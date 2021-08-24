@@ -203,6 +203,7 @@
     cursor: pointer;
     position: relative;
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    border: 2px solid white;
     
   }
   .bubbly-button:hover{
@@ -580,7 +581,7 @@
        cursor: pointer;
        position: relative;
        transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-      border: 2px solid white;
+      
       
      }
       figure{
