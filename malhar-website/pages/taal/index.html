@@ -145,24 +145,29 @@
           <div style="background-image:url(./images/TAAL\ Complete\ Draft\ 1-31.png)"></div>
           <div style="background-image:url(./images/TAAL\ Complete\ Draft\ 1-32.png)"></div>
           <div style="background-image:url(./images/TAAL\ Complete\ Draft\ 1-33.png)"></div>
-          
-          
         </div>
       </div>
     </div>    
 
-    
+   <div class="button" style="position: absolute; left: 44%; top: 67%; ">
+        
+        <a href="./TAAL Complete Draft 1.pdf"  download ><button class="bubbly-button" style="
+          font-family: 'Overpass',serif ;">
+        Download Taal Magazine</button></a>
+    </div>
 
+
+    <h1>TAAL AUDIOBOOK</h1>
     <!-- Audio player -->
       <div class="player">
         <audio class="player__audio viewer">
-          <source src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mpeg" data-trackid="1">
+          <source src="Taal Audiobook.mp3" type="audio/mpeg" data-trackid="1">
           Your browser does not support the audio element.
         </audio>
         <div class="song-panel">
           <div class="song-info">
-            <div class="song-info__title">Ukulele</div>
-            <div class="song-info__artist">Bensound</div>
+            <div class="song-info__title">Taal Audiobook</div>
+            <div class="song-info__artist">Malhar'21</div>
             <div class="progress">
               <div class="progress__filled"></div>
             </div>
@@ -264,6 +269,8 @@
 
         });
         
+
+
       </script>
       <style>
         
@@ -329,14 +336,8 @@
 	transition: box-shadow 0.5s;
 	box-shadow:0 0 20px #ccc;
 }
-     
-     
-     
 
-
-     
-     
-     </style>
+</style>
 
 
 
@@ -485,6 +486,31 @@
         progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
         progress.addEventListener('mousedown', () => mousedown = true);
         progress.addEventListener('mouseup', () => mousedown = false);
+    </script>
+
+    <script>
+              // Button animation
+              var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+  e.target.classList.remove('animate');
+},700);
+
+setTimeout(function(){
+ window.location.href='../taal/index.html';
+}, 500); 
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+bubblyButtons[i].addEventListener('click', animateButton, false);
+}
     </script>
   </body>
   
