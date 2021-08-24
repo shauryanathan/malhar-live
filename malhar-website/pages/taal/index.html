@@ -152,7 +152,7 @@
       </div>
     </div>    
 
-   <div class="button" style="position: absolute; left: 44%; top: 67%; ">
+   <div class="button" style="position: relative; left: 44%; top: 0%; ">
         
         <a href="./TAAL Complete Draft 1.pdf"  download ><button class="bubbly-button" style="
           font-family: 'Overpass',serif ;">
@@ -178,7 +178,7 @@
         </div>
         <div class="player-controls">
           <div class="spinner">
-            <div class="spinner__disc" style="background-image: url(https://www.bensound.com/bensound-img/ukulele.jpg)">
+            <div class="spinner__disc" style="background-image: url(./images/TAAL\ Complete\ Draft\ 1-01.png)">
               <div class="center__disc"></div>
             </div>
           </div>
@@ -286,32 +286,33 @@
 }
 
 .flipbook-viewport .container{
-	position:absolute;
+	position:relative;
   cursor: pointer;
-	top:60%;
-	left:51%;
+	width: 100%;
+	left:40%;
 
-  transform: translate(-50%,-50%);
+  
 }
 
 /* Flipbook size for big phones */
  @media only screen and (min-width: 321px) and (max-width: 501px){
   .flipbook-viewport .container{
-  position:absolute;
-  top:55%;
-  left:50%;
-  transform: translate(-50%,-50%);
+    position:relative;
+  cursor: pointer;
+	width: 100%;
+	  left:10%;
 }
  }
 /* Flipbook size for small af phones */
  @media only screen and (max-width: 321px){
   .flipbook-viewport .container{
-  position:absolute;
-  top:60%;
-  left:50%;
-  transform: translate(-50%,-50%);
+    position:relative;
+  cursor: pointer;
+	width: 100%;
+	left:8%;
 }
- }
+}
+ 
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;
