@@ -106,6 +106,7 @@
     </div>
 
     <h1>TAAL MAGAZINE</h1>
+    <figure><i>Use the corners to navigate</i></figure>
     
     <!-- magazine -->
     <div class="flipbook-viewport">
@@ -126,6 +127,8 @@
         </div>
       </div>
     </div>    
+
+    
 
     <!-- Audio player -->
       <div class="player">
@@ -192,9 +195,9 @@
   
   
               // Width
-              width:320,
+              width:301,
               // Height
-              height:530,
+              height:438,
               // Elevation
               elevation: 50,
               // Enable gradients
@@ -243,7 +246,7 @@
         
 
 .flipbook-viewport{
-  cursor: pointer;
+ 
 	overflow:hidden;
 	width:100%;
   height:100%;
@@ -251,8 +254,9 @@
 
 .flipbook-viewport .container{
 	position:absolute;
+  cursor: pointer;
 	top:60%;
-	left:50%;
+	left:51%;
 
   transform: translate(-50%,-50%);
 }
@@ -260,12 +264,21 @@
 /* Flipbook size for big phones */
  @media only screen and (min-width: 321px) and (max-width: 501px){
   .flipbook-viewport .container{
-	position:absolute;
-	top:53%;
-	left:50%;
+  position:absolute;
+  top:55%;
+  left:50%;
   transform: translate(-50%,-50%);
 }
+ }
+/* Flipbook size for small af phones */
+ @media only screen and (max-width: 321px){
+  .flipbook-viewport .container{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
+ }
 .flipbook-viewport .flipbook{
 	width:922px;
 	height:600px;

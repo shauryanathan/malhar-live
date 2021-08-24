@@ -176,6 +176,15 @@
    }
    
    /* OUR CSS */
+   figure{
+    color: #cecece;
+    font-family: 'Overpass' , sans-serif;
+   margin: 2% 0%;
+   width: 100%;
+   text-align: center;
+ 
+    
+  }
    h1{
      font-size: 5.5vh;
      font-family: 'Krona One' , sans-serif;
@@ -451,6 +460,14 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      figure{
+        font-size: 2.5vh;
+      margin-top: 1%;
+   width: 100%;
+   text-align: center;
+   position: relative;
+
+      }
       .collapse{
         visibility: hidden;
       }
