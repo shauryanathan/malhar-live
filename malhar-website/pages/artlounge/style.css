@@ -1,4 +1,23 @@
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
 
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -150,13 +169,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -164,21 +183,21 @@
      background-color: black;
      background-image: url(bg-main.png);
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
-  
+
    .caption{
      color: white;
      font-family: 'Overpass' , sans-serif;
@@ -226,8 +245,8 @@
      width:70vw;
      margin-top: 15%;
      box-shadow: 0px 12px 25px #000;
-   
-   }  
+
+   }
    .button{
      margin-top: 2%;
      display: block;
@@ -251,11 +270,11 @@
      color: white;
      font-family: 'Overpass' , sans-serif;
      font-size: 2vh;
-     
+
    }
    .button a {
        color: white;
-       
+
    }
    .img p{
      font-family: 'Overpass' , sans-serif;
@@ -273,12 +292,12 @@
      text-align: center;
      padding-top: 25%;
    }
-   
+
    nav {
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -320,9 +339,9 @@
   }
   p {
     text-align: center;
-  } 
+  }
 
-   
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
@@ -446,12 +465,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -459,7 +478,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -470,7 +489,7 @@
        display: block;
        width: 76px;
      }
-     
+
    }
   .image{
     width: 200px;
@@ -485,7 +504,7 @@
     background-size: 180% , 180%;
     background-repeat: no-repeat;
   }
-   
+
    .box{
      width: 80vw;
      height: 60vh;
@@ -513,8 +532,8 @@
      font-family: 'Overpass' , sans-serif;
    }
 
-   
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .collapse{
@@ -549,7 +568,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -567,10 +586,10 @@
        padding: 1%;
        margin-left: 4%;
      }
-     
+
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -579,7 +598,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -599,6 +618,6 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
-     
+
+
    }
