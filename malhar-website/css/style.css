@@ -1,23 +1,3 @@
-.SkipLinkText {
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                margin: -1px;
-                padding: -1px;
-                overflow: hidden;
-            }
-
-            .SkipLinkText:focus {
-                color: #2C3531;
-                background-color: #D1E8E2;
-                display: inline-block;
-                height: auto;
-                width: auto;
-                position: static;
-                margin: auto;
-                text-align: center;
-                text-decoration: none;
-            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -128,6 +108,28 @@
    q:after {
      content: none;
    }
+   .SkipLinkText {
+    color: black;
+    position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -99px;
+                padding: -1px;
+                overflow: hidden;
+
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
    a {
      margin: 0;
      padding: 0;
