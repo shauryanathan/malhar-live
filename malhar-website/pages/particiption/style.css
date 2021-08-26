@@ -198,9 +198,14 @@
    /* OUR CSS */
 
    .button{
-     margin-top: 85%;
+     margin-top: 5%;
      text-align: center;
 
+   }
+ 
+   .button a:hover{
+     color: black;
+     background-color: white;
    }
    .two{
       margin-top: 15%;
@@ -297,11 +302,22 @@
   p {
     text-align: center;
   }
+  .submission{
+    font-size: 4vh;
+    margin-top: 20%;
+  }
 
 
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     .submission{
+      font-size: 4vh;
+      margin-top: 70%;
+    }
+    .button{
+      margin-top: 20%;
+    }
      h1{
        font-size: 4vh;
      }
@@ -496,8 +512,9 @@
      .collapse{
       visibility: hidden;
     }
+    
      .button{
-       margin: 20%;
+       margin: 7%;
      }
      .button.two{
        margin-top: -15%;
