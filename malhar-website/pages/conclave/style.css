@@ -257,7 +257,7 @@
     margin-top: 8%;
   }
   p {
-    text-align: center;
+    text-align: justify;
   } 
 
   .image{
@@ -297,6 +297,12 @@
   .urvashisahni {
     background-image: url(./urvashisahni.jpg);
   }
+  .imchaimchen {
+    background-image: url(./imchaimchen.jpg);
+  }
+  .abhijeet {
+    background-image: url(./AbhijeetSrivastava.jpg);
+  }
   
    
    .box{
@@ -327,7 +333,7 @@
      text-align: center;
      z-index: 10;
      font-size: 3vh;
-     margin-top: 63%;
+     margin-top: 55%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
      position: relative;
@@ -513,6 +519,12 @@
 
      .box {
        height: 80vh;
+       width: 90vw;
+     }
+     .box p{
+       width: 70vw;
+       margin-left: auto;
+       margin-right: auto;
      }
    }
  
@@ -529,6 +541,7 @@
       }
       .image {
         background-size: 80%,80%;
+        z-index: 10000000000;
         
       }
       .collapse{
