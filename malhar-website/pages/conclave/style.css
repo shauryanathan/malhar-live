@@ -162,6 +162,7 @@
      height: 100%;
      background-image: url("./what-the-hex-dark.png");
      background-attachment: fixed;
+    
    }
    
    html {
@@ -170,6 +171,7 @@
    
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
+     overflow-x: hidden;
    }
    
    canvas {
@@ -177,7 +179,20 @@
    }
    
    /* OUR CSS */
-   
+  
+   h1 {
+     text-align: center;
+     color: white;
+     font-family: 'Krona One' , sans-serif;
+     font-size: 4vh;
+     padding-top: 25%;
+   }
+   .heading {
+     color: white;
+     text-align: center;
+     font-size: 2.5vh;
+     font-family: 'Overpass' , sa;
+   }
    nav {
      visibility: hidden;
      position: absolute;
@@ -233,12 +248,27 @@
     margin-top: -15%;
   
     margin-left: 25vw;
-    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
     background-position: center;
-    background-size: 180% , 180%;
     background-repeat: no-repeat;
+    background-size: cover;
 
   }
+  .first {
+    background-image: url(./one.jpg);
+  }
+  .second {
+    background-image: url(./two.jpg);
+  }
+  .third {
+    background-image: url(./three.jpg);
+  }
+  .four{
+    background-image: url(./five.jpg);
+  }
+  .five {
+    background-image: url(./five.jpg);
+  }
+  
    
    .box{
      width: 80vw;
@@ -249,22 +279,24 @@
      margin-right: auto;
    }
    .section{
-     padding-top: 45%;
+     padding-top: 25%;
+     padding-bottom: 30%;
    }
    .box h3{
      color: white;
      text-align: center;
-     z-index: 10s;
-     font-size: 4vh;
-     margin-top: 58%;
+     z-index: 10;
+     font-size: 3vh;
+     margin-top: 63%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
    }
    .box p{
      color: white;
-     padding: 8%;
+     padding: 2%;
      font-size: 2vh;
      font-family: 'Overpass' , sans-serif;
+     overflow: scroll;
    }
   
 
@@ -274,6 +306,7 @@
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     
      .toggle {
        position:fixed;
        cursor: pointer;
@@ -420,6 +453,15 @@
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+      h1 {
+        font-size: 8vh;
+        padding:0;
+        padding-top: 10%;
+      }
+      .image {
+        background-size: 80%,80%;
+        
+      }
       .collapse{
         visibility: hidden;
       }
