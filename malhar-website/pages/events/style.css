@@ -554,7 +554,7 @@ a {
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
 
-
+  
   .header h1 {
     font-size: 10vh;
   }
@@ -584,7 +584,7 @@ a {
     font-size: 1vw;
     display: inline;
     padding: 1%;
-    margin-left: 4%;
+    margin-inline: 1%;
   }
   a {
     font-family: "Overpass", sans-serif;
@@ -668,7 +668,7 @@ a {
     background-size: 30% , 30%;
     background-repeat: no-repeat;
   }
-
+  
 
   .info {
     width: 50%;
@@ -688,8 +688,8 @@ a {
   }
 
   .collapse{
-    padding-left: 8.5%;
-     margin-top: 0.17%;
+    padding-left: 4.5%;
   }
 
 }
+
