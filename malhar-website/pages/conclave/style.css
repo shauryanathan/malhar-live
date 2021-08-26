@@ -330,6 +330,9 @@
      margin-top: 63%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
+     position: relative;
+     background-color: black;
+     z-index: 10000;
    }
    .box p{
      color: white;
@@ -493,7 +496,7 @@
        width: 76px;
      }
      .two {
-      height: 65vh;
+      height: 70vh;
      }
      .three {
        height: 70vh;
@@ -508,7 +511,9 @@
        height: 90vh;
      }
 
-     
+     .box {
+       height: 80vh;
+     }
    }
  
    
