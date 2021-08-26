@@ -1,4 +1,24 @@
-/* =============================================================================
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
+            /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
@@ -302,6 +322,19 @@
 .card figure{
     font-size: 2vh;
 }
+.link{
+  border: none;
+  margin-top: 5%;
+ 
+
+  
+  
+}
+.link a{
+  color: rgb(99, 181, 236);
+  text-decoration: underline;
+}
+
 .card p{
     font-size: 2vh;
     border: 2px solid rgb(3, 53, 29);
@@ -312,6 +345,7 @@
     padding: 2%;
     border-radius: 2rem;
 }
+
 .number{
     margin-top: 5%;
 }

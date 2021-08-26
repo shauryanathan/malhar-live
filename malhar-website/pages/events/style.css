@@ -1,4 +1,23 @@
-/* =============================================================================
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }/* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
@@ -535,7 +554,7 @@ a {
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
 
-  
+
   .header h1 {
     font-size: 10vh;
   }
@@ -649,7 +668,7 @@ a {
     background-size: 30% , 30%;
     background-repeat: no-repeat;
   }
-  
+
 
   .info {
     width: 50%;
