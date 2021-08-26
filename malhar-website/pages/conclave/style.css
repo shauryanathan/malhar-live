@@ -338,7 +338,7 @@
      font-family: 'Overpass' , sans-serif;
      position: relative;
      background-color: black;
-     z-index: 10000;
+     z-index: 4;
    }
    .box p{
      color: white;
@@ -647,12 +647,6 @@
       text-align: left;
       font-size: large;
 
-    }
-
-    .sixth h3{
-      margin-left: 30vw;
-      font-size:4.5vh;
-    
     }
     .section h1{
       padding: 0;
