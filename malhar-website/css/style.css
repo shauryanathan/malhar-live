@@ -108,6 +108,28 @@
    q:after {
      content: none;
    }
+   .SkipLinkText {
+    color: black;
+    position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -99px;
+                padding: -1px;
+                overflow: hidden;
+
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
    a {
      margin: 0;
      padding: 0;
@@ -149,34 +171,34 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
       My CSS
       ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
      height: 100%;
      background: #111;
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* ---- particles.js container ---- */
-   
+
    #particles-js {
      width: 100%;
      height: 100%;
@@ -191,9 +213,9 @@
    #particles-js {
      position: absolute;
    }
-   
+
    /* OUR CSS */
-   
+
    .header {
      position: fixed;
      text-align: center;
@@ -212,22 +234,22 @@
      width: 50%;
      height: 100%;
    }
-   
+
    .header:hover {
      cursor: default;
    }
-   
+
    .header h1 {
      color: white;
      color: #FFD8B8;
-   
+
      font-size: 10vh;
      font-family: "Overpass", sans-serif;
      animation-name: emerge;
      animation-duration: 2.5s;
      font-weight: bolder;
    }
-   
+
    @keyframes emerge {
      0% {
        transform: translateY(-20px);
@@ -241,7 +263,7 @@
    .header h2 {
      color: white;
      color: #FFD8B8;
-   
+
      font-size: 4vh;
      font-family: "Overpass", sans-serif;
      text-align: center;
@@ -259,7 +281,7 @@
      font-family: "Overpass", sans-serif;
      color: white;
      color: #FFD8B8;
-   
+
      font-size: 2.5vh;
      opacity: 0;
      padding-top: 1%;
@@ -267,14 +289,14 @@
      letter-spacing: 7.5px;
      font-weight: lighter;
    }
-   
+
    .header h3.is-showing {
      font-family: "Overpass", sans-serif;
      font-size: 2.5vh;
      font-weight: lighter;
      opacity: 1;
    }
-   
+
    nav {
      visibility: hidden;
      position: absolute;
@@ -292,14 +314,14 @@
    .collapse.is-clicked {
      height: 100vh;
    }
-   
+
    .collapse a {
      font-family: "Overpass", sans-serif;
      text-decoration: none;
      color: white;
      font-size: 2.5vh;
    }
-   
+
    .collapse ul {
      transform: translateY(-20px);
      opacity: 0;
@@ -321,7 +343,7 @@
    .header h1 {
      font-size: 9vh;
    }
-   
+
    .toggle {
      opacity: 0;
      transition: 1.5s;
@@ -330,11 +352,11 @@
      z-index: 7;
      margin: 8% 5%;
    }
-   
-   
-   
-   
-   
+
+
+
+
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
@@ -350,7 +372,7 @@
      .toggle input {
        display: none;
      }
-   
+
      .toggle input + div {
        width: 30px;
        height: 18px;
@@ -458,12 +480,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -471,7 +493,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -482,20 +504,20 @@
        display: block;
        width: 76px;
      }
-   
+
      .header h2{
        font-size: 2vh ;
      }
-   
+
      .header h1 {
        font-size: 9vh;
      }
-      
+
      .header{
        margin-top: 10vh;
      }
-   
-   
+
+
    .home_button{
      /* margin-top: -5%; */
      display: inline-block;
@@ -519,7 +541,7 @@
      background-color: #198754;
      border-color: #198754;
    }
-   
+
    @media (prefers-reduced-motion: reduce) {
      .home_button {
        transition: none;
@@ -531,19 +553,19 @@
      border-color: #146c43;
    }
    }
-   
+
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
      .header h1 {
        font-size: 10vh;
      }
-   
+
      .collapse{
        visibility: hidden;
      }
-   
-   
-   
+
+
+
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;
@@ -554,7 +576,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -573,7 +595,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -582,7 +604,7 @@
        position: relative;
        color: #fff1e6;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -602,23 +624,23 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
+
      .logo_container {
        width: 20vw;
        margin-left: auto;
        margin-right: auto;
-       
+
      }
-   
-    
-   
+
+
+
      .logo {
        width: 13%;
      }
    }
-   
+
    /* ---- stats.js ---- */
-   
+
    /* .count-particles{
      background: #000022;
      position: absolute;
@@ -634,27 +656,27 @@
      font-family: Helvetica, Arial, sans-serif;
      font-weight: bold;
    }
-   
+
    .js-count-particles{
      font-size: 1.1em;
    }
-   
+
    #stats,
    .count-particles{
      -webkit-user-select: none;
      margin-top: 5px;
      margin-left: 5px;
    }
-   
+
    #stats{
      border-radius: 3px 3px 0 0;
      overflow: hidden;
    }
-   
+
    .count-particles{
      border-radius: 0 0 3px 3px;
    } */
-   
+
    :root {
      --bg: #3C465C;
      --primary: #ffd8b8;
@@ -682,7 +704,7 @@
      text-align: center;
      font-size: 1.3em;
      line-height: 2em;
-     cursor: pointer;	
+     cursor: pointer;
    }
    .btn span{
      font-family: 'Overpass' , sans-serif;
@@ -732,7 +754,3 @@
      80% {transform: translateX(0) rotate(180deg);}
      100% {transform: translateX(0) rotate(360deg);}
    }
-   
-
-
-   

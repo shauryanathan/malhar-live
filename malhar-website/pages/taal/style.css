@@ -1,3 +1,23 @@
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -149,37 +169,37 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
      height: 100%;
      background-color: black;
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
 
    /* button css */
-   
- 
+
+
   .button{
     text-align: center;
     width: 40vw;
@@ -203,16 +223,16 @@
     background-color: #fff;
     color: black;
   }
-  
-  
+
+
    figure{
     color: #cecece;
     font-family: 'Overpass' , sans-serif;
    margin: 2% 0%;
    width: 100%;
    text-align: center;
- 
-    
+
+
   }
    h1{
      font-size: 4vh;
@@ -221,12 +241,12 @@
      padding-top:7%;
      color: white;
    }
-   
+
    nav {
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -268,7 +288,7 @@
   }
   p {
     text-align: center;
-  } 
+  }
 
   /* Heading style for big phones */
   @media only screen and (min-width: 321px) and (max-width: 501px){
@@ -277,7 +297,7 @@
        font-size: 4vh;
      }
 
-     
+
 
   }
 
@@ -290,16 +310,16 @@
 
 
   }
-  
-  
+
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
-     
+
      /* FOR HAMBURGER */
      .player {
        transform: scale(0.8);
      }
-     
+
      .toggle {
        position: absolute;
        cursor: pointer;
@@ -416,12 +436,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -429,7 +449,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -440,7 +460,7 @@
        display: block;
        width: 76px;
      }
-     
+
    }
    @media (max-width: 320px) {
     .player {
@@ -460,7 +480,7 @@
     background-size: 180% , 180%;
     background-repeat: no-repeat;
   }
-   
+
    .box{
      width: 80vw;
      height: 60vh;
@@ -488,8 +508,8 @@
      font-family: 'Overpass' , sans-serif;
    }
 
-   
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
       .button {
@@ -521,7 +541,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -541,7 +561,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -550,7 +570,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -570,26 +590,26 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-   
-     
+
+
    }
-   
+
    @import url("https://fonts.googleapis.com/css?family=Roboto");
    * {
      box-sizing: border-box;
      font-family: "Roboto", sans-serif;
      outline: none;
    }
-   
+
    body {
      overflow-x: hidden;
-     
+
      height: 100vh;
      width: 100vw;
      margin: 0;
      padding: 0;
    }
-   
+
    .player {
      display: flex;
      align-items: center;
@@ -597,7 +617,7 @@
      flex-direction: column;
      height: 40%;
    }
-   
+
    .player-controls {
      background-color: #116466;
      border-radius: 15px;
@@ -606,11 +626,11 @@
      justify-content: flex-end;
      padding: 10px;
    }
-   
+
    * {
      box-sizing: border-box;
    }
-   
+
    .song-panel {
      background-color: #0d4547;
      border-radius: 15px 15px 0 0;
@@ -662,7 +682,7 @@
      transform: translate3d(0, 0, 0);
      transition: all 1s ease;
    }
-   
+
    button {
      height: 80px;
      width: 80px;
@@ -674,12 +694,12 @@
      border-radius: 15px;
      position: relative;
    }
-   
+
    button:hover, button.playing {
      background-color: #E0DEE1;
      color: #fff;
    }
-   
+
    button.play span.pause {
      background-color: white;
      position: absolute;
@@ -691,37 +711,37 @@
      opacity: 0;
      transition: all 0.5s ease;
    }
-   
+
    button.play span.pause.left {
      left: 0;
    }
-   
+
    button.play.playing span.pause.left {
      left: 25px;
      opacity: 1;
      transition: left 0.5s ease, opacity 0.8s ease;
    }
-   
+
    button.play span.pause.right {
      right: 0;
    }
-   
+
    button.play.playing span.pause.right {
      right: 25px;
      opacity: 1;
      transition: right 0.5s ease, opacity 0.8s ease;
    }
-   
+
    button.play i {
      opacity: 1;
      transition: opacity 0.5s ease;
    }
-   
+
    button.play.playing i {
      opacity: 0;
      transition: all 0.5s ease;
    }
-   
+
    .player-controls {
      position: relative;
    }
@@ -764,7 +784,7 @@
      width: 25px;
      border-radius: 50%;
    }
-   
+
    @keyframes spin {
      100% {
        transform: rotate(360deg);
