@@ -322,6 +322,19 @@
 .card figure{
     font-size: 2vh;
 }
+.link{
+  border: none;
+  margin-top: 5%;
+ 
+
+  
+  
+}
+.link a{
+  color: rgb(99, 181, 236);
+  text-decoration: underline;
+}
+
 .card p{
     font-size: 2vh;
     border: 2px solid rgb(3, 53, 29);
@@ -332,6 +345,7 @@
     padding: 2%;
     border-radius: 2rem;
 }
+
 .number{
     margin-top: 5%;
 }
