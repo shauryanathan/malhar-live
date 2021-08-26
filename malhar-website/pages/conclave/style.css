@@ -1,23 +1,3 @@
-.SkipLinkText {
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                margin: -1px;
-                padding: -1px;
-                overflow: hidden;
-            }
-
-            .SkipLinkText:focus {
-                color: #2C3531;
-                background-color: #D1E8E2;
-                display: inline-block;
-                height: auto;
-                width: auto;
-                position: static;
-                margin: auto;
-                text-align: center;
-                text-decoration: none;
-            }
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -169,40 +149,56 @@
    li {
      list-style: none;
    }
-
+   
    /* =============================================================================
             My CSS
             ========================================================================== */
-
+   
    /* ---- base ---- */
-
+   
    html,
    body {
      width: 100%;
      height: 100%;
      background-image: url("./what-the-hex-dark.png");
      background-attachment: fixed;
+    
    }
-
+   
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-
+   
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
+     overflow-x: hidden;
    }
-
+   
    canvas {
      vertical-align: bottom;
    }
-
+   
    /* OUR CSS */
-
+   
+  
+   h1 {
+     text-align: center;
+     color: white;
+     font-family: 'Krona One' , sans-serif;
+     font-size: 4vh;
+     padding-top: 25%;
+   }
+   .heading {
+     color: white;
+     text-align: center;
+     font-size: 2.5vh;
+     font-family: 'Overpass' , sa;
+   }
    nav {
      visibility: hidden;
      position: absolute;
    }
-
+  
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -244,22 +240,40 @@
   }
   p {
     text-align: center;
-  }
+  } 
 
   .image{
     width: 50vw;
     height: 30vh;
     position: absolute;
     margin-top: -15%;
-
+  
     margin-left: 25vw;
-    background-image: url(https://i.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg);
     background-position: center;
-    background-size: 180% , 180%;
     background-repeat: no-repeat;
+    background-size: cover;
 
   }
-
+  .first {
+    background-image: url(./one.jpg);
+  }
+  .second {
+    background-image: url(./two.jpg);
+  }
+  .third {
+    background-image: url(./three.jpg);
+  }
+  .four{
+    background-image: url(./five.jpg);
+  }
+  .five {
+    background-image: url(./five.jpg);
+  }
+  .six {
+    background-image: url(./six.png);
+  }
+  
+   
    .box{
      width: 80vw;
      height: 60vh;
@@ -269,31 +283,41 @@
      margin-right: auto;
    }
    .section{
-     padding-top: 45%;
+     padding-top: 25%;
+     padding-bottom: 30%;
    }
    .box h3{
      color: white;
      text-align: center;
-     z-index: 10s;
-     font-size: 4vh;
-     margin-top: 58%;
+     z-index: 10;
+     font-size: 3vh;
+     margin-top: 63%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
    }
    .box p{
      color: white;
-     padding: 8%;
+     padding: 2%;
      font-size: 2vh;
      font-family: 'Overpass' , sans-serif;
+
+     font-weight: lighter;
    }
+   .fourth h3 {
+     font-size: 2.5vh;
+   }
+   .sixth h3 {
+    font-size: 2.5vh;
+  }
+  
 
+   
 
-
-
-
+   
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
+     
      .toggle {
        position:fixed;
        cursor: pointer;
@@ -410,12 +434,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-
+   
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-
+   
      * {
        box-sizing: inherit;
      }
@@ -423,7 +447,7 @@
      *:after {
        box-sizing: inherit;
      }
-
+   
      body .dribbble {
        position: fixed;
        display: block;
@@ -434,12 +458,22 @@
        display: block;
        width: 76px;
      }
-
+     
    }
-
-
+ 
+   
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
+     
+      h1 {
+        font-size: 8vh;
+        padding:0;
+        padding-top: 10%;
+      }
+      .image {
+        background-size: 80%,80%;
+        
+      }
       .collapse{
         visibility: hidden;
       }
@@ -453,7 +487,7 @@
        visibility: hidden;
        position: absolute;
      }
-
+   
      /* NAV CSS */
      nav {
        position: absolute;
@@ -473,7 +507,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-
+   
        text-decoration: none;
        color: white;
      }
@@ -482,7 +516,7 @@
        position: relative;
        color: white;
      }
-
+   
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -512,8 +546,8 @@
 
 
      }
-
-
+     
+    
      .box{
       padding: 0;
       margin: 0;
@@ -532,6 +566,10 @@
       font-size:8vh;
       margin-left: 15vw;
     }
+    .fourth h3{
+      font-size: 5.5vh;
+      margin-left: 30%;
+    }
     .box p{
       padding: 0;
       width: 40vw;
@@ -541,5 +579,6 @@
       text-align: left;
     }
 
-
+     
    }
+   
