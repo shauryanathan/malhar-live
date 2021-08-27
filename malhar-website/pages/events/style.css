@@ -239,11 +239,9 @@ nav {
 }
 
 .section {
-  height: 100vh;
   width: 100vw;
   background-attachment: fixed;
   color: white;
-  padding: 10% 9% 20% 14%;
 }
 .events {
   font-size: 7vh;
@@ -549,6 +547,10 @@ a {
   .info{
     margin-left: -3%;
   }
+
+  .section{
+    padding: 13%;
+  }
 }
 
 /* MEDIA FOR EXCEPT MOBILE */
@@ -619,6 +621,7 @@ a {
   }
 
   .section {
+    
     padding: 2% 0%;
   }
   .events {
@@ -631,6 +634,7 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 10%;
+    padding-right: 18%;
   }
 
   .to_be_logo {
@@ -690,6 +694,8 @@ a {
   .collapse{
     padding-left: 4.5%;
   }
+
+
 
 }
 

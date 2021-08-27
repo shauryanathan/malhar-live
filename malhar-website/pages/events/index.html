@@ -235,35 +235,6 @@
 
     </main>
 
-
-    <script>
-      $( function ()
-      {
-        $( function myFunc( x )
-        {
-          var mq = window.matchMedia( '(max-width: 570px)' );
-          if ( !mq.matches )
-          {
-            $.scrollify.enable();
-            $.scrollify( {
-              section: ".section",
-              afterResize: function ()
-              {
-                if ( mq.matches )
-                {
-                  $.scrollify.destroy();
-                }
-                else
-                {
-                  $.scrollify.enable();
-                }
-              }
-            } );
-          }
-        } )
-      } )
-    </script>
-
   </body>
 
 </html>
