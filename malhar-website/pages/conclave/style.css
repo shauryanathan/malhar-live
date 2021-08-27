@@ -1,4 +1,23 @@
-/* =============================================================================
+.SkipLinkText {
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                margin: -1px;
+                padding: -1px;
+                overflow: hidden;
+            }
+
+            .SkipLinkText:focus {
+                color: #2C3531;
+                background-color: #D1E8E2;
+                display: inline-block;
+                height: auto;
+                width: auto;
+                position: static;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+            }/* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
@@ -149,13 +168,13 @@
    li {
      list-style: none;
    }
-   
+
    /* =============================================================================
             My CSS
             ========================================================================== */
-   
+
    /* ---- base ---- */
-   
+
    html,
    body {
      width: 100%;
@@ -163,25 +182,25 @@
      background-color: black;
      background-image: url("./what-the-hex-dark.png");
      background-attachment: fixed;
-    
+
    }
-   
+
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
+
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
      overflow-x: hidden;
    }
-   
+
    canvas {
      vertical-align: bottom;
    }
-   
+
    /* OUR CSS */
-   
-  
+
+
    h1 {
      text-align: center;
      color: white;
@@ -216,7 +235,7 @@
      visibility: hidden;
      position: absolute;
    }
-  
+
    .collapse {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -258,14 +277,14 @@
   }
   p {
     text-align: justify;
-  } 
+  }
 
   .image{
     width: 50vw;
     height: 30vh;
     position: absolute;
     margin-top: -15%;
-  
+
     margin-left: 25vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -302,8 +321,8 @@
   .abhijeet {
     background-image: url(./AbhijeetSrivastava.jpg);
   }
-  
-   
+
+
    .box{
      width:70vw;
      height: 60vh;
@@ -320,7 +339,7 @@
   }
 
 
-  
+
    .section{
      padding-bottom: 30%;
    }
@@ -347,19 +366,19 @@
      padding: 5% 0%;
      font-weight: lighter;
    }
-   
+
    .sixth h3 {
     font-size: 2.5vh;
   }
-  
 
-   
 
-   
+
+
+
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
-     
+
      .toggle {
        position:fixed;
        cursor: pointer;
@@ -476,12 +495,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-   
+
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-   
+
      * {
        box-sizing: inherit;
      }
@@ -489,7 +508,7 @@
      *:after {
        box-sizing: inherit;
      }
-   
+
      body .dribbble {
        position: fixed;
        display: block;
@@ -526,8 +545,8 @@
        margin-right: auto;
      }
    }
- 
-   
+
+
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
      #maincontent {
@@ -541,7 +560,7 @@
       .image {
         background-size: 80%,80%;
         z-index: 10000000000;
-        
+
       }
       .collapse{
         visibility: hidden;
@@ -556,7 +575,7 @@
        visibility: hidden;
        position: absolute;
      }
-   
+
      /* NAV CSS */
      nav {
        position: absolute;
@@ -576,7 +595,7 @@
      }
      a {
        font-family: "Overpass", sans-serif;
-   
+
        text-decoration: none;
        color: white;
      }
@@ -585,7 +604,7 @@
        position: relative;
        color: white;
      }
-   
+
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -615,8 +634,8 @@
 
 
      }
-     
-    
+
+
      .box{
       padding: 0;
       margin: 0;
@@ -637,7 +656,7 @@
       text-align: left;
       padding-left: 7.3%;
     }
-    
+
     .box p{
       width: 40vw;
       padding-left: ;
@@ -658,7 +677,5 @@
       font-size: 4vh;
       padding-bottom: 5%;
     }
-     
+
    }
-   
- 
