@@ -284,10 +284,10 @@
      }
 
      h2{
-       font-size: 3vh;
+       font-size: 4vh;
      }
      .logo img{
-       width: 40%;
+       width: 50%;
      }
      .global_logo{
        margin-top: 15%;
@@ -549,6 +549,9 @@
      h2{
        margin: 7% 0% 3% 0%;
        font-size: 6vh;
+     }
+     .global_logo{
+       width: 25%;
      }
 
 
