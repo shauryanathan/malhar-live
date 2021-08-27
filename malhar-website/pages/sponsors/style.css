@@ -289,8 +289,29 @@
      .logo img{
        width: 50%;
      }
+     .mahindra{
+      margin: 15% 0% 4% 0%;
+     }
+     .event{
+      margin: 15% 0% 8% 0%;
+     }
+     .media{
+      margin: 15% 0% 8% 0%;
+     }
+     .furniture{
+      margin: 15% 0% 9% 0%;
+     }
+     .shipping{
+       margin: 8% 0% 4% 0%;
+     }
+     .radio{
+      margin: 15% 0% 4% 0%;
+     }
+     .networking{
+      margin: 15% 0% 8% 0%;
+     }
      .global_logo{
-       margin-top: 15%;
+       margin: 15% 0% 4% 0%;
      }
      .toggle {
        position: absolute;
@@ -552,6 +573,30 @@
      }
      .global_image{
        width: 25%;
+     }
+     .mahindra{
+      margin: 5% 0% 2% 0%;
+     }
+     .event{
+      margin: 5% 0% 2% 0%;
+     }
+     .media{
+      margin: 8% 0% 2% 0%;
+     }
+     .furniture{
+      margin: 7% 0% 3% 0%;
+     }
+     .shipping{
+       margin: 3% 0% 2% 0%;
+     }
+     .radio{
+      margin: 6% 0% 2% 0%;
+     }
+     .networking{
+      margin: 7% 0% 2% 0%;
+     }
+     .global_logo{
+       margin: 8% 0% 2% 0%;
      }
 
 
