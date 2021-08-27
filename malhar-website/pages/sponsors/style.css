@@ -200,7 +200,7 @@
      font-size: 7vh;
      font-family: 'Krona One' , sans-serif;
      text-align: center;
-     padding-top: 25%;
+     padding-top: 20%;
    }
 
    nav {
@@ -251,13 +251,46 @@
     text-align: center;
   }
 
+  h2{
+    color: white;
+    text-align: center;
+    margin:20% 0% 8% 0%;
+    font-size: 2.5vh;
+    font-family: 'Overpass', serif;
+    font-weight: lighter;
+    
+  }
+  .logo_container{
+    width: 100%;
+    text-align: center;
+  }
+  .logo{
+    width: 100%;
+  }
+  .logo img{
+    width: 30%;
+  }
+
+  #maincontent{
+    padding-bottom: 10%;
+  }
+
 
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      h1{
-       padding-top: 75%;
+       font-size: 5vh;
+     }
+
+     h2{
        font-size: 4vh;
+     }
+     .logo img{
+       width: 50%;
+     }
+     .global_logo{
+       margin-top: 15%;
      }
      .toggle {
        position: absolute;
@@ -507,6 +540,18 @@
      .hover-underline-animation:hover:after {
        transform: scaleX(1);
        transform-origin: bottom left;
+     }
+
+     h1{
+       padding-top: 9%;
+       font-size: 8.5vh;
+     }
+     h2{
+       margin: 7% 0% 3% 0%;
+       font-size: 6vh;
+     }
+     .global_image{
+       width: 25%;
      }
 
 

@@ -160,6 +160,7 @@
    body {
      width: 100%;
      height: 100%;
+     background-color: black;
      background-image: url("./what-the-hex-dark.png");
      background-attachment: fixed;
     
@@ -187,6 +188,23 @@
      font-family: 'Krona One' , sans-serif;
      font-size: 4vh;
      padding-top: 25%;
+   }
+   .section h1{
+     padding: 0;
+     margin: 0;
+     color: white;
+     font-family: 'Overpass' , sans-serif;
+     font-weight: lighter;
+     font-size: 3.5vh;
+   }
+   .section figure {
+     font-family: 'Overpass' , sans-serif;
+     padding: 0;
+     margin: 0;
+     color: white;
+     text-align: center;
+     padding-bottom: 25%;
+
    }
    .heading {
      color: white;
@@ -239,7 +257,7 @@
     margin-top: 8%;
   }
   p {
-    text-align: center;
+    text-align: justify;
   } 
 
   .image{
@@ -264,7 +282,7 @@
     background-image: url(./three.jpg);
   }
   .four{
-    background-image: url(./five.jpg);
+    background-image: url(./anurag\ chauhan.jpeg);
   }
   .five {
     background-image: url(./five.jpg);
@@ -272,28 +290,54 @@
   .six {
     background-image: url(./six.png);
   }
+  .sumitaghose {
+      background-image: url(./sumitaghose.jpg);
+  }
+  .urvashisahni {
+    background-image: url(./urvashisahni.jpg);
+  }
+  .imchaimchen {
+    background-image: url(./imchaimchen.jpg);
+  }
+  .abhijeet {
+    background-image: url(./AbhijeetSrivastava.jpg);
+  }
   
    
    .box{
-     width: 80vw;
+     width:70vw;
      height: 60vh;
      background-color:black;
      border: 1px solid white;
      margin-left: auto;
      margin-right: auto;
    }
+   .fourth {
+     height:60vh;
+   }
+   .sixth {
+    height: 70vh;
+  }
+
+
+  
    .section{
-     padding-top: 25%;
      padding-bottom: 30%;
+   }
+   .land {
+     padding-top: 10%;
    }
    .box h3{
      color: white;
      text-align: center;
      z-index: 10;
      font-size: 3vh;
-     margin-top: 63%;
+     margin-top: 55%;
      font-weight: lighter;
      font-family: 'Overpass' , sans-serif;
+     position: relative;
+     background-color: black;
+     z-index: 4;
    }
    .box p{
      color: white;
@@ -303,9 +347,7 @@
      padding: 5% 0%;
      font-weight: lighter;
    }
-   .fourth h3 {
-     font-size: 2.5vh;
-   }
+   
    .sixth h3 {
     font-size: 2.5vh;
   }
@@ -458,14 +500,39 @@
        display: block;
        width: 76px;
      }
-     
-     
+     .two {
+      height: 70vh;
+     }
+     .three {
+       height: 70vh;
+     }
+     .fourth {
+       height: 70vh;
+     }
+     .fifth {
+       height: 70vh;
+     }
+     .sixth {
+       height: 90vh;
+     }
+
+     .box {
+       height: 80vh;
+       width: 90vw;
+     }
+     .box p{
+       width: 70vw;
+       margin-left: auto;
+       margin-right: auto;
+     }
    }
  
    
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
-     
+     #maincontent {
+       margin-left: 10%;
+     }
       h1 {
         font-size: 8vh;
         padding:0;
@@ -473,6 +540,7 @@
       }
       .image {
         background-size: 80%,80%;
+        z-index: 10000000000;
         
       }
       .collapse{
@@ -569,10 +637,7 @@
       text-align: left;
       padding-left: 7.3%;
     }
-    .fourth h3{
-      font-size: 5.5vh;
-      margin-left: 30%;
-    }
+    
     .box p{
       width: 40vw;
       padding-left: ;
@@ -582,11 +647,18 @@
       font-size: large;
 
     }
-
-    .sixth h3{
-      margin-left: 30%;
+    .section h1{
+      padding: 0;
+      margin: 0;
+      font-size: 5vh;
     }
-
+    .section figure {
+      padding: 0;
+      margin: 0;
+      font-size: 4vh;
+      padding-bottom: 5%;
+    }
      
    }
    
+ 
