@@ -257,6 +257,8 @@
     margin:20% 0% 8% 0%;
     font-size: 2.5vh;
     font-family: 'Overpass', serif;
+    font-weight: lighter;
+    
   }
   .logo_container{
     width: 100%;
@@ -266,7 +268,11 @@
     width: 100%;
   }
   .logo img{
-    width: 20%;
+    width: 30%;
+  }
+
+  #maincontent{
+    padding-bottom: 10%;
   }
 
 
@@ -278,10 +284,10 @@
      }
 
      h2{
-       font-size: 3vh;
+       font-size: 4vh;
      }
      .logo img{
-       width: 40%;
+       width: 50%;
      }
      .global_logo{
        margin-top: 15%;
@@ -537,12 +543,15 @@
      }
 
      h1{
-       padding-top: 7%;
-       font-size: 8vh;
+       padding-top: 9%;
+       font-size: 8.5vh;
      }
      h2{
        margin: 7% 0% 3% 0%;
-       font-size: 4.5vh;
+       font-size: 6vh;
+     }
+     .global_image{
+       width: 25%;
      }
 
 
