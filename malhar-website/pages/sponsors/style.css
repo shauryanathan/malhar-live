@@ -302,7 +302,10 @@
       margin: 15% 0% 9% 0%;
      }
      .shipping{
-       margin: 8% 0% 4% 0%;
+       margin: 15% 0% 4% 0%;
+     }
+     .edu{
+      margin: 8% 0% 7% 0%;
      }
      .radio{
       margin: 15% 0% 4% 0%;
@@ -587,10 +590,13 @@
       margin: 7% 0% 3% 0%;
      }
      .shipping{
-       margin: 3% 0% 2% 0%;
+       margin: 5% 0% 2% 0%;
      }
      .radio{
       margin: 6% 0% 2% 0%;
+     }
+     .edu{
+       margin: 1% 0% 4% 0%;
      }
      .networking{
       margin: 7% 0% 2% 0%;
