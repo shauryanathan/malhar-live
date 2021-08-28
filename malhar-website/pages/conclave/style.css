@@ -181,6 +181,36 @@
    
    /* OUR CSS */
    
+   .youtube{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: 60%;
+     justify-content: center;
+     margin-top: 10%;
+    
+     
+   }
+   iframe{
+   width: 50%;
+   }
+   .button{
+    margin-top: 8%;
+    text-align: center;
+
+  }
+  .button a:hover{
+    color: black;
+    background-color: white;
+  }
+  .button a{
+    color: white;
+    border: 2px solid white;
+    padding: 2%;
+    font-size: 2vh;
+    font-family: 'Overpass' , sans-serif;
+    text-align: center;
+  }
   
    h1 {
      text-align: center;
@@ -525,6 +555,20 @@
        margin-left: auto;
        margin-right: auto;
      }
+     .button{
+      margin-top: 20%;
+    }
+    h1{
+      font-size: 5vh;
+    }
+    .youtube{
+      height: 40%;
+      
+    }
+    iframe{
+      width: 90%;
+      height: 90%;
+    }
    }
  
    
@@ -626,6 +670,7 @@
     .section{
       padding: 0;
       margin: 0;
+      margin-left: 10%;
       padding-top: 15%;
     }
     .box h3{
@@ -651,14 +696,16 @@
       padding: 0;
       margin: 0;
       font-size: 5vh;
+      margin-left: -10%;
     }
     .section figure {
       padding: 0;
       margin: 0;
       font-size: 4vh;
       padding-bottom: 5%;
+      margin-left: -10%;
     }
-     
+    
    }
    
  
