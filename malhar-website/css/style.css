@@ -306,15 +306,17 @@
      overflow-y: hidden;
      height: 0vh;
      width: 100vw;
-     background-color: #111111;
+     background-color: #111111; 
      position: absolute;
      z-index: 5;
-     transition: ease-in-out, 0.2s;
+     transition: ease-in-out, 0.2s; 
     
    }
-   .collapse.is-clicked {
+   .collapse.is-clicked { 
      height: 100vh;
      padding-top: 15%;
+     overflow-y: scroll; 
+     padding-bottom: 40%; 
    }
 
    .collapse a {
