@@ -658,11 +658,8 @@
        margin-left: 5%;
        width: 30%;
        height: 50%;
-
-
      }
      
-    
      .box{
       padding: 0;
       margin: 0;
@@ -687,10 +684,6 @@
     
     .box p{
       width: 40vw;
-<<<<<<< HEAD
-   
-=======
->>>>>>> ad88abecf0b92b7ca147efff3a1d17462a70106b
       position: relative;
       margin-left: 30vw;
       text-align: left;
