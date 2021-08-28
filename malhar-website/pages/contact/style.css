@@ -1,23 +1,4 @@
-.SkipLinkText {
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                margin: -1px;
-                padding: -1px;
-                overflow: hidden;
-            }
-
-            .SkipLinkText:focus {
-                color: #2C3531;
-                background-color: #D1E8E2;
-                display: inline-block;
-                height: auto;
-                width: auto;
-                position: static;
-                margin: auto;
-                text-align: center;
-                text-decoration: none;
-            }/* =============================================================================
+/* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
@@ -168,46 +149,34 @@
    li {
      list-style: none;
    }
-
+   
    /* =============================================================================
             My CSS
             ========================================================================== */
-
+   
    /* ---- base ---- */
-
+   
    html,
    body {
      width: 100%;
      height: 100%;
      background-image: url("y-so-serious.png");
-     overflow-x: hidden;
    }
-
+   
    html {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-
+   
    body {
      font: normal 75% Arial, Helvetica, sans-serif;
    }
-
+   
    canvas {
      vertical-align: bottom;
    }
-
+   
    /* OUR CSS */
-
-   .footer{
-     width: 100vw;
-     font-size: 2vh;
-     font-family: 'Overpass' , sans-serif;
-     color: white;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 7%;
-   }
-
+   
    nav {
      visibility: hidden;
      position: absolute;
@@ -257,16 +226,14 @@
   }
   p {
     text-align: center;
-  }
+  } 
 
    /* Contact us box */
    form input:focus{
      outline: none;
      border-bottom: 2px solid white;
-
-
    }
-
+  
    .form{
     margin-left: 22%;
    }
@@ -279,7 +246,7 @@
      padding: 20% 0% 6%;
 
    }
-
+   
     h3{
       color: white ;
       margin: 3% 0%;
@@ -299,14 +266,13 @@
       border: none;
       outline: none;
       border-bottom: 2px solid black;
-
-
+      
+      
     }
     form textarea:focus{
       outline: none;
       border-bottom: 2px solid white;
       transform: translateY(-4px);
-
 
     }
     .button{
@@ -318,19 +284,9 @@
       color: black;
       cursor: pointer;
     }
-    .button:focus{
-      background-color: white;
-      color: black;
-      cursor: pointer;
-    }
-
+    
     textarea{
       resize: none;
-    }
-    textarea:focus{
-      color: black;
-      border-radius: 0%;
-
     }
     .button{
       background: none;
@@ -338,22 +294,10 @@
       border: solid white 2px;
       border-radius: 0%;
     }
-
+ 
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
-     .footer{
-       margin: 0;
-       padding: 0;
-       text-align: center;
-       width: 100vw;
-       margin-top: 10%;
-       margin-left: auto;
-       margin-right: auto;
-     }
-     a{
-       color: white;
-     }
      .toggle {
        position: absolute;
        cursor: pointer;
@@ -470,12 +414,12 @@
      .toggle input:checked + div svg:nth-child(3) {
        transform: rotate(270deg);
      }
-
+   
      html {
        box-sizing: border-box;
        -webkit-font-smoothing: antialiased;
      }
-
+   
      * {
        box-sizing: inherit;
      }
@@ -483,7 +427,7 @@
      *:after {
        box-sizing: inherit;
      }
-
+   
      body .dribbble {
        position: fixed;
        display: block;
@@ -494,37 +438,23 @@
        display: block;
        width: 76px;
      }
-
+     
      textarea{
        margin: 5% 2%;
      }
      .button{
        margin-left: 6%;
      }
-     form input{
-       color: #ffff;
-       font-family: 'Overpass' , sans-serif;
-     }
-     form textarea{
-      color: #ffff;
-      font-family: 'Overpass' , sans-serif;
-    }
    }
 
-
-
+   
+   
    /* MEDIA FOR EXCEPT MOBILE */
     @media (min-width: 500px) {
-      .collapse{
-        visibility: hidden;
-      }
-      .footer{
-        margin-top: 3%;
-      }
      .header h1 {
        font-size: 10vh;
      }
-
+   
      /* Hamburger CSS */
      .toggle {
        visibility: hidden;
@@ -535,7 +465,7 @@
        visibility: hidden;
        position: absolute;
      }
-
+   
      /* NAV CSS */
      nav {
        position: absolute;
@@ -551,11 +481,11 @@
        font-size: 1vw;
        display: inline;
        padding: 1%;
-       margin-left: 4%;
+       margin-left: 4.1%;
      }
      a {
        font-family: "Overpass", sans-serif;
-
+   
        text-decoration: none;
        color: white;
      }
@@ -564,7 +494,7 @@
        position: relative;
        color: white;
      }
-
+   
      .hover-underline-animation:after {
        content: "";
        position: absolute;
@@ -584,7 +514,7 @@
        transform: scaleX(1);
        transform-origin: bottom left;
      }
-
+   
      .section {
        padding: 2% 0%;
      }
@@ -599,19 +529,19 @@
        flex-wrap: wrap;
        padding-top: 10%;
      }
-
+   
      .to_be_logo {
        width: 40%;
        margin: 0%;
        padding: 0%;
      }
-
+   
      .info {
        width: 50%;
        margin: 0%;
        padding: 0%;
      }
-
+   
      .info h3 {
        padding: 0% 0% 2%;
        font-size: 6vh;
@@ -639,7 +569,7 @@
        width: 14vw;
        color: white;
        text-align: left;
-
+       
      }
      .form{
        padding:0%;
@@ -695,5 +625,6 @@
        padding-left: 3%;
      }
 
-
+     
    }
+   

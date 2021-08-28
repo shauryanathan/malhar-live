@@ -180,7 +180,7 @@
    body {
      width: 100%;
      height: 100%;
-     background-color: black;
+     background-color: rgb(36, 32, 32);
    }
 
    html {
@@ -200,7 +200,7 @@
      font-size: 7vh;
      font-family: 'Krona One' , sans-serif;
      text-align: center;
-     padding-top: 25%;
+     padding-top: 20%;
    }
 
    nav {
@@ -251,13 +251,70 @@
     text-align: center;
   }
 
+  h2{
+    color: white;
+    text-align: center;
+    
+    font-size: 2.5vh;
+    font-family: 'Overpass', serif;
+    font-weight: lighter;
+    
+  }
+  .logo_container{
+    width: 100%;
+    text-align: center;
+  }
+  .logo{
+    width: 100%;
+  }
+  .logo img{
+    width: 30%;
+  }
+
+  #maincontent{
+    padding-bottom: 10%;
+  }
+
 
    /* MEDIA FOR MOBILE ONLY */
    @media (max-width: 500px) {
      /* FOR HAMBURGER */
      h1{
-       padding-top: 75%;
+       font-size: 5vh;
+     }
+
+     h2{
        font-size: 4vh;
+     }
+     .logo img{
+       width: 50%;
+     }
+     .mahindra{
+      margin: 15% 0% 4% 0%;
+     }
+     .event{
+      margin: 15% 0% 8% 0%;
+     }
+     .media{
+      margin: 15% 0% 8% 0%;
+     }
+     .furniture{
+      margin: 15% 0% 9% 0%;
+     }
+     .shipping{
+       margin: 15% 0% 4% 0%;
+     }
+     .edu{
+      margin: 8% 0% 7% 0%;
+     }
+     .radio{
+      margin: 15% 0% 4% 0%;
+     }
+     .networking{
+      margin: 15% 0% 8% 0%;
+     }
+     .global_logo{
+       margin: 15% 0% 4% 0%;
      }
      .toggle {
        position: absolute;
@@ -507,6 +564,45 @@
      .hover-underline-animation:hover:after {
        transform: scaleX(1);
        transform-origin: bottom left;
+     }
+
+     h1{
+       padding-top: 9%;
+       font-size: 8.5vh;
+     }
+     h2{
+       
+       font-size: 6vh;
+     }
+     .global_image{
+       width: 25%;
+     }
+     .mahindra{
+      margin: 5% 0% 2% 0%;
+     }
+     .event{
+      margin: 5% 0% 2% 0%;
+     }
+     .media{
+      margin: 8% 0% 2% 0%;
+     }
+     .furniture{
+      margin: 7% 0% 3% 0%;
+     }
+     .shipping{
+       margin: 5% 0% 2% 0%;
+     }
+     .radio{
+      margin: 6% 0% 2% 0%;
+     }
+     .edu{
+       margin: 1% 0% 4% 0%;
+     }
+     .networking{
+      margin: 7% 0% 2% 0%;
+     }
+     .global_logo{
+       margin: 8% 0% 2% 0%;
      }
 
 

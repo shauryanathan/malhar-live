@@ -348,6 +348,7 @@
      h1{
        padding-top: 75%;
        font-size: 4vh;
+       margin-bottom: 15%;
      }
      .toggle {
        position: absolute;
