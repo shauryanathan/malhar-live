@@ -262,6 +262,8 @@
   }
   .collapse.is-clicked {
     height: 100vh;
+    overflow-y: scroll; 
+    padding-bottom: 40%;
   }
 
   .collapse a {
@@ -685,7 +687,10 @@
     
     .box p{
       width: 40vw;
+<<<<<<< HEAD
    
+=======
+>>>>>>> ad88abecf0b92b7ca147efff3a1d17462a70106b
       position: relative;
       margin-left: 30vw;
       text-align: left;
