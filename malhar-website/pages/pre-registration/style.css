@@ -208,7 +208,7 @@
     margin-right: auto;
   }
    .button{
-     margin-top: 6vh;
+     margin-top: 5%;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -224,15 +224,19 @@
      font-family: 'Overpass' , sans-serif;
      text-align: center;
    }
+   .button a:hover{
+     color: black;
+     background-color: white;
+   }
    h1{
      color: #ffff;
      font-family: 'Krona One' , sans-serif;
      font-size: 6vh;
      text-align: center;
-     margin-bottom: 5%;
+     margin-bottom: 10%;
    }
    .main{
-       padding-top: 30%;
+       padding-top: 20%;
        width: 100vw;
    }
    .links{
@@ -519,7 +523,7 @@
      }
      .button a{
        font-size: 2.5vh;
-       padding: 1%;
+       padding: 1.5%;
      }
      .button{
        margin: 0;
@@ -529,7 +533,7 @@
        margin-top: 3%;
      }
      .main{
-       padding-top: 10%;
+       padding-top: 8%;
      }
      .main h1{
        margin: 0;

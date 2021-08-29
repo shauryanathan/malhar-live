@@ -263,7 +263,7 @@ position: fixed;
 }
 .collapse.is-clicked {
 height: 100vh;
-overflow-y: scroll; 
+overflow-y: scroll;
 padding-bottom: 40%;
 }
 
@@ -686,10 +686,15 @@ flex: 0;
 flex-basis: 0%;
 width: 50%;
 }
+.song-panel{
+  visibility: hidden;
+}
 .song-panel.playing {
 transform: translate3d(0, 0, 0);
 transition: all 1s ease;
+visibility: visible;
 }
+
 
 button {
 height: 80px;

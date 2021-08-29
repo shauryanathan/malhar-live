@@ -197,6 +197,20 @@
    }
 
    /* OUR CSS */
+   .staff{
+    color: white;
+    font-family: 'Krona One' , sans-serif;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding-top: 5%;
+    
+   }
+   .staff h1{
+    font-weight: lighter;
+    margin-top: -10%;
+    font-size: 6vh;
+   }
    .title{
        color: white;
        font-family: 'Krona One' , sans-serif;
@@ -213,9 +227,37 @@
      visibility: hidden;
      position: absolute;
    }
+   
+   table{
+     color: white;
+     border: white 2px solid;
+     margin: auto;
+     width: 40%;
+     margin-top: 20%;
+     
+   }
+   th{
+     font-weight: bold;
+     font-size: 2.5vh;
+   }
+   td{
+     font-size: 2vh;
+   }
+   th, td{
+     padding: 20px;
+     border: white 2px solid;
+   }
+   
+   
    /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
   .title h1{
+    font-size: 4vh;
+  }
+  table{
+    margin-top: 30%;
+  }
+  .staff h1{
     font-size: 4vh;
   }
 
@@ -622,6 +664,15 @@ body {
   width: 100vw;
   margin-top: 5%;
 }
+.staff{
+  text-align: center;
+  font-family: 'Krona One' , sans-serif;
+  font-size: 9vh;
+  width: 100vw;
+  margin-top: 0%;
+  
+}
+
 .main{
   margin-top: 20%;
   position: absolute;
@@ -708,6 +759,7 @@ body {
 
    /* MEDIA FOR EXCEPT MOBILE */
    @media (min-width: 500px) {
+     
     /* Hamburger CSS */
     .collapse{
       visibility: hidden;
