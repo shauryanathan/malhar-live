@@ -199,6 +199,7 @@ vertical-align: bottom;
 /* OUR CSS */
 h1 {
   color: white;
+  text-align: center;
 
 }
 .winners {
@@ -206,6 +207,7 @@ h1 {
   margin: 0;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 .winners li{
   text-align: center;
@@ -352,6 +354,7 @@ text-align: center;
 /* MEDIA FOR MOBILE ONLY */
 @media (max-width: 500px) {
 /* FOR HAMBURGER */
+
 h1{
 padding-top: 15%;
 font-size: 4vh;
@@ -545,6 +548,20 @@ font-family: 'Overpass' , sans-serif;
 /* MEDIA FOR EXCEPT MOBILE */
 @media (min-width: 500px) {
 /* Hamburger CSS */
+.head{
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.winners h1, h1{
+  margin-left: 5%;
+}
+.winners li{
+  margin-left: 5%;
+}
+.card{
+  padding-top: 2%;
+  margin-bottom: 6%;
+}
 .event {
   margin-left: 20%;
   width: 23%;
@@ -561,6 +578,9 @@ font-family: 'Overpass' , sans-serif;
   float: left;
   
   }
+.empty, .esports{
+  margin-left: 41%;
+}
   .result {
     margin-top: 5%;
   }
@@ -601,7 +621,7 @@ li {
 font-size: 1vw;
 display: inline;
 padding: 1%;
-margin-left: 4%;
+
 }
 a {
 font-family: "Overpass", sans-serif;
