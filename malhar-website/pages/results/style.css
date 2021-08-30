@@ -550,13 +550,32 @@ font-family: 'Overpass' , sans-serif;
 /* Hamburger CSS */
 .head{
   margin-bottom: 3%;
-  margin-left: 5%;
+  margin-left: 3%;
+  font-size: 5vh;
 }
 .winners h1, h1{
-  margin-left: 5%;
+  margin-left: 3%;
 }
+.winners h1{
+  margin-bottom: 2%;
+  padding-bottom: 0%;
+  font-size: 7.5vh;
+}
+.results{
+  margin-top: 1%;
+  margin-bottom: 5%;
+  padding: 0%;
+  font-size: 8vh;
+
+}
+.heading{
+  font-size: 3vh;   
+}
+
 .winners li{
-  margin-left: 5%;
+  margin-left: 3%;
+  margin-top: 0%;
+  font-size: 3vh;
 }
 .card{
   padding-top: 2%;
